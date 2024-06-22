@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cemig")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f36827eaaf8225428b79a113844f0222cc5c8294")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96c08ec144d2bcf9071ef63d78209327d928fce4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cemig")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cemig")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
