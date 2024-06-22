@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mayckit\\.nuget\\packages\\": {}
+    "C:\\Users\\Heber Mendonça\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\Cemig.csproj",
+      "projectUniqueName": "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\Cemig.csproj",
       "projectName": "Cemig",
-      "projectPath": "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\Cemig.csproj",
-      "packagesPath": "C:\\Users\\mayckit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\obj\\",
+      "projectPath": "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\Cemig.csproj",
+      "packagesPath": "C:\\Users\\Heber Mendonça\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mayckit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Heber Mendonça\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
