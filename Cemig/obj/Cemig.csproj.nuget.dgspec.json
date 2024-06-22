@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj": {}
+    "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\Cemig.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj": {
+    "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\Cemig.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
+        "projectUniqueName": "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\Cemig.csproj",
         "projectName": "Cemig",
-        "projectPath": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
-        "packagesPath": "C:\\Users\\Parre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\obj\\",
+        "projectPath": "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\Cemig.csproj",
+        "packagesPath": "C:\\Users\\mayckit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mayckit\\Documents\\Trab-final\\Cemig\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Parre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayckit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
