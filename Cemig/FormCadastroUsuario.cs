@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cemig.Entidades;
+using System;
 using System.Windows.Forms;
 
 namespace Cemig

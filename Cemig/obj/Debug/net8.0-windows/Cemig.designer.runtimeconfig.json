@@ -12,8 +12,13 @@
       }
     ],
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\mathe\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\mathe\\.nuget\\packages"
+=======
+      "C:\\Users\\Parre\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Parre\\.nuget\\packages"
+>>>>>>> a270db153a0f9cac7347b10492b01c321e9c2326
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
