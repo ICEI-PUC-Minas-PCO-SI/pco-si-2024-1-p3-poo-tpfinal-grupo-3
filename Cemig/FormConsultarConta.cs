@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Cemig
+namespace ConsumerApp
 {
     public partial class FormsConsultaConta : Form
     {
@@ -29,11 +29,6 @@ namespace Cemig
             txtConsumption.Text = consumo.ToString("N2");
             txtTotalValue.Text = valorTotal.ToString("C2");
             txtValueWithoutTaxes.Text = valorSemImpostos.ToString("C2");
-        }
-
-        private void txtConsumption_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

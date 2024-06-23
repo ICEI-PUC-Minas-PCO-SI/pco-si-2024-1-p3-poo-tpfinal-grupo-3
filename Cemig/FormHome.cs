@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Cemig
+namespace ConsumerApp
 {
     public partial class FormHome : Form
     {
@@ -24,8 +24,8 @@ namespace Cemig
 
         private void BtnConsultAccounts_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Consultar Contas clicado!");
-            // Lógica para consultar contas
+            FormsConsultaConta formConsultaConta = new FormsConsultaConta();
+            formConsultaConta.Show();
         }
     }
 }

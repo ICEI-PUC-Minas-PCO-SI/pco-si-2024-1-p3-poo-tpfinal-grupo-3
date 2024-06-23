@@ -1,4 +1,4 @@
-﻿namespace Cemig
+﻿namespace ConsumerApp
 {
     partial class FormHome
     {

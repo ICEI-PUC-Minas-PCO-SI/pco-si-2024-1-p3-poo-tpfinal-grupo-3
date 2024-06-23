@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\Cemig.csproj": {}
+    "C:\\Users\\Heber Mendonça\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\Cemig.csproj": {
+    "C:\\Users\\Heber Mendonça\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\Cemig.csproj",
+        "projectUniqueName": "C:\\Users\\Heber Mendonça\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
         "projectName": "Cemig",
-        "projectPath": "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\Cemig.csproj",
+        "projectPath": "C:\\Users\\Heber Mendonça\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
         "packagesPath": "C:\\Users\\Heber Mendonça\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Heber Mendonça\\Documents\\CEMIG POO\\Cemig\\obj\\",
+        "outputPath": "C:\\Users\\Heber Mendonça\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Heber Mendonça\\AppData\\Roaming\\NuGet\\NuGet.Config",

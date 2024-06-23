@@ -1,4 +1,4 @@
-﻿namespace Cemig
+﻿namespace ConsumerApp
 {
     partial class FormsConsultaConta
     {
@@ -24,110 +24,110 @@
 
         private void InitializeComponent()
         {
-            lblAccountNumber = new Label();
-            txtAccountNumber = new TextBox();
-            lblConsumption = new Label();
-            txtConsumption = new TextBox();
-            lblTotalValue = new Label();
-            txtTotalValue = new TextBox();
-            lblValueWithoutTaxes = new Label();
-            txtValueWithoutTaxes = new TextBox();
-            btnConsult = new Button();
-            SuspendLayout();
+            this.lblAccountNumber = new System.Windows.Forms.Label();
+            this.txtAccountNumber = new System.Windows.Forms.TextBox();
+            this.lblConsumption = new System.Windows.Forms.Label();
+            this.txtConsumption = new System.Windows.Forms.TextBox();
+            this.lblTotalValue = new System.Windows.Forms.Label();
+            this.txtTotalValue = new System.Windows.Forms.TextBox();
+            this.lblValueWithoutTaxes = new System.Windows.Forms.Label();
+            this.txtValueWithoutTaxes = new System.Windows.Forms.TextBox();
+            this.btnConsult = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // lblAccountNumber
             // 
-            lblAccountNumber.AutoSize = true;
-            lblAccountNumber.Location = new Point(12, 15);
-            lblAccountNumber.Name = "lblAccountNumber";
-            lblAccountNumber.Size = new Size(102, 15);
-            lblAccountNumber.TabIndex = 0;
-            lblAccountNumber.Text = "Número da Conta";
+            this.lblAccountNumber.AutoSize = true;
+            this.lblAccountNumber.Location = new System.Drawing.Point(12, 15);
+            this.lblAccountNumber.Name = "lblAccountNumber";
+            this.lblAccountNumber.Size = new System.Drawing.Size(85, 13);
+            this.lblAccountNumber.TabIndex = 0;
+            this.lblAccountNumber.Text = "Número da Conta";
             // 
             // txtAccountNumber
             // 
-            txtAccountNumber.Location = new Point(150, 12);
-            txtAccountNumber.Name = "txtAccountNumber";
-            txtAccountNumber.Size = new Size(200, 23);
-            txtAccountNumber.TabIndex = 1;
+            this.txtAccountNumber.Location = new System.Drawing.Point(150, 12);
+            this.txtAccountNumber.Name = "txtAccountNumber";
+            this.txtAccountNumber.Size = new System.Drawing.Size(200, 20);
+            this.txtAccountNumber.TabIndex = 1;
             // 
             // lblConsumption
             // 
-            lblConsumption.AutoSize = true;
-            lblConsumption.Location = new Point(12, 50);
-            lblConsumption.Name = "lblConsumption";
-            lblConsumption.Size = new Size(59, 15);
-            lblConsumption.TabIndex = 2;
-            lblConsumption.Text = "Consumo";
+            this.lblConsumption.AutoSize = true;
+            this.lblConsumption.Location = new System.Drawing.Point(12, 50);
+            this.lblConsumption.Name = "lblConsumption";
+            this.lblConsumption.Size = new System.Drawing.Size(55, 13);
+            this.lblConsumption.TabIndex = 2;
+            this.lblConsumption.Text = "Consumo";
             // 
             // txtConsumption
             // 
-            txtConsumption.Location = new Point(150, 47);
-            txtConsumption.Name = "txtConsumption";
-            txtConsumption.ReadOnly = true;
-            txtConsumption.Size = new Size(200, 23);
-            txtConsumption.TabIndex = 3;
+            this.txtConsumption.Location = new System.Drawing.Point(150, 47);
+            this.txtConsumption.Name = "txtConsumption";
+            this.txtConsumption.ReadOnly = true;
+            this.txtConsumption.Size = new System.Drawing.Size(200, 20);
+            this.txtConsumption.TabIndex = 3;
             // 
             // lblTotalValue
             // 
-            lblTotalValue.AutoSize = true;
-            lblTotalValue.Location = new Point(12, 85);
-            lblTotalValue.Name = "lblTotalValue";
-            lblTotalValue.Size = new Size(61, 15);
-            lblTotalValue.TabIndex = 4;
-            lblTotalValue.Text = "Valor Total";
+            this.lblTotalValue.AutoSize = true;
+            this.lblTotalValue.Location = new System.Drawing.Point(12, 85);
+            this.lblTotalValue.Name = "lblTotalValue";
+            this.lblTotalValue.Size = new System.Drawing.Size(54, 13);
+            this.lblTotalValue.TabIndex = 4;
+            this.lblTotalValue.Text = "Valor Total";
             // 
             // txtTotalValue
             // 
-            txtTotalValue.Location = new Point(150, 82);
-            txtTotalValue.Name = "txtTotalValue";
-            txtTotalValue.ReadOnly = true;
-            txtTotalValue.Size = new Size(200, 23);
-            txtTotalValue.TabIndex = 5;
+            this.txtTotalValue.Location = new System.Drawing.Point(150, 82);
+            this.txtTotalValue.Name = "txtTotalValue";
+            this.txtTotalValue.ReadOnly = true;
+            this.txtTotalValue.Size = new System.Drawing.Size(200, 20);
+            this.txtTotalValue.TabIndex = 5;
             // 
             // lblValueWithoutTaxes
             // 
-            lblValueWithoutTaxes.AutoSize = true;
-            lblValueWithoutTaxes.Location = new Point(12, 120);
-            lblValueWithoutTaxes.Name = "lblValueWithoutTaxes";
-            lblValueWithoutTaxes.Size = new Size(110, 15);
-            lblValueWithoutTaxes.TabIndex = 6;
-            lblValueWithoutTaxes.Text = "Valor sem Impostos";
+            this.lblValueWithoutTaxes.AutoSize = true;
+            this.lblValueWithoutTaxes.Location = new System.Drawing.Point(12, 120);
+            this.lblValueWithoutTaxes.Name = "lblValueWithoutTaxes";
+            this.lblValueWithoutTaxes.Size = new System.Drawing.Size(97, 13);
+            this.lblValueWithoutTaxes.TabIndex = 6;
+            this.lblValueWithoutTaxes.Text = "Valor sem Impostos";
             // 
             // txtValueWithoutTaxes
             // 
-            txtValueWithoutTaxes.Location = new Point(150, 117);
-            txtValueWithoutTaxes.Name = "txtValueWithoutTaxes";
-            txtValueWithoutTaxes.ReadOnly = true;
-            txtValueWithoutTaxes.Size = new Size(200, 23);
-            txtValueWithoutTaxes.TabIndex = 7;
+            this.txtValueWithoutTaxes.Location = new System.Drawing.Point(150, 117);
+            this.txtValueWithoutTaxes.Name = "txtValueWithoutTaxes";
+            this.txtValueWithoutTaxes.ReadOnly = true;
+            this.txtValueWithoutTaxes.Size = new System.Drawing.Size(200, 20);
+            this.txtValueWithoutTaxes.TabIndex = 7;
             // 
             // btnConsult
             // 
-            btnConsult.Location = new Point(150, 160);
-            btnConsult.Name = "btnConsult";
-            btnConsult.Size = new Size(200, 30);
-            btnConsult.TabIndex = 8;
-            btnConsult.Text = "Consultar";
-            btnConsult.UseVisualStyleBackColor = true;
-            btnConsult.Click += BtnConsult_Click;
+            this.btnConsult.Location = new System.Drawing.Point(150, 160);
+            this.btnConsult.Name = "btnConsult";
+            this.btnConsult.Size = new System.Drawing.Size(200, 30);
+            this.btnConsult.TabIndex = 8;
+            this.btnConsult.Text = "Consultar";
+            this.btnConsult.UseVisualStyleBackColor = true;
+            this.btnConsult.Click += new System.EventHandler(this.BtnConsult_Click);
             // 
             // FormsConsultaConta
             // 
-            ClientSize = new Size(384, 211);
-            Controls.Add(btnConsult);
-            Controls.Add(txtValueWithoutTaxes);
-            Controls.Add(lblValueWithoutTaxes);
-            Controls.Add(txtTotalValue);
-            Controls.Add(lblTotalValue);
-            Controls.Add(txtConsumption);
-            Controls.Add(lblConsumption);
-            Controls.Add(txtAccountNumber);
-            Controls.Add(lblAccountNumber);
-            Name = "FormsConsultaConta";
-            Text = "Consulta de Conta";
-            ResumeLayout(false);
-            PerformLayout();
+            this.ClientSize = new System.Drawing.Size(384, 211);
+            this.Controls.Add(this.btnConsult);
+            this.Controls.Add(this.txtValueWithoutTaxes);
+            this.Controls.Add(this.lblValueWithoutTaxes);
+            this.Controls.Add(this.txtTotalValue);
+            this.Controls.Add(this.lblTotalValue);
+            this.Controls.Add(this.txtConsumption);
+            this.Controls.Add(this.lblConsumption);
+            this.Controls.Add(this.txtAccountNumber);
+            this.Controls.Add(this.lblAccountNumber);
+            this.Name = "FormsConsultaConta";
+            this.Text = "Consulta de Conta";
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
     }
 }
