@@ -70,6 +70,7 @@
             // 
             nresgistro.Location = new Point(364, 136);
             nresgistro.Name = "nresgistro";
+            nresgistro.PlaceholderText = "XXXXXXXXXXXX";
             nresgistro.Size = new Size(125, 23);
             nresgistro.TabIndex = 5;
             // 
@@ -99,6 +100,7 @@
             // 
             Valor.Location = new Point(364, 186);
             Valor.Name = "Valor";
+            Valor.PlaceholderText = "Valor mês atual";
             Valor.Size = new Size(125, 23);
             Valor.TabIndex = 8;
             Valor.TextChanged += textBox2_TextChanged_1;
@@ -107,6 +109,7 @@
             // 
             cpfBox.Location = new Point(278, 74);
             cpfBox.Name = "cpfBox";
+            cpfBox.PlaceholderText = "Digite seu CPF";
             cpfBox.Size = new Size(100, 23);
             cpfBox.TabIndex = 9;
             // 
@@ -114,6 +117,7 @@
             // 
             cnpjBox.Location = new Point(458, 75);
             cnpjBox.Name = "cnpjBox";
+            cnpjBox.PlaceholderText = "Digite seu CNPJ";
             cnpjBox.Size = new Size(100, 23);
             cnpjBox.TabIndex = 10;
             // 
