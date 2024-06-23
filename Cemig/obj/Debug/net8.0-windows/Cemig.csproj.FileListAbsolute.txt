@@ -38,3 +38,25 @@ C:\Users\Heber Mendonça\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig
 C:\Users\Heber Mendonça\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig\bin\Debug\net8.0-windows\Cemig.pdb
 C:\Users\Heber Mendonça\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig\obj\Debug\net8.0-windows\Cemig.genruntimeconfig.cache
 C:\Users\Heber Mendonça\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig\obj\Debug\net8.0-windows\ref\Cemig.dll
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\bin\Debug\net8.0-windows\Cemig.exe
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\bin\Debug\net8.0-windows\Cemig.deps.json
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\bin\Debug\net8.0-windows\Cemig.runtimeconfig.json
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\bin\Debug\net8.0-windows\Cemig.dll
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\bin\Debug\net8.0-windows\Cemig.pdb
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.Form1.resources
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.FormCadastroUsuario.resources
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\ConsumerApp.FormsConsultaConta.resources
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\ConsumerApp.FormHome.resources
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.FormListaConsumidores.resources
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.FormLogin.resources
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.csproj.GenerateResource.cache
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.AssemblyInfoInputs.cache
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.AssemblyInfo.cs
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.csproj.CoreCompileInputs.cache
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.sourcelink.json
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.dll
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\refint\Cemig.dll
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.pdb
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\Cemig.genruntimeconfig.cache
+C:\Users\Heber Mendonça\Documents\CEMIG PRINCIPAL\Cemig\obj\Debug\net8.0-windows\ref\Cemig.dll
