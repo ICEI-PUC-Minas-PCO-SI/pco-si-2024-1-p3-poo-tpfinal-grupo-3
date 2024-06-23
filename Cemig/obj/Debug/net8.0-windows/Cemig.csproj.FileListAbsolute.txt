@@ -40,3 +40,20 @@ G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\refint\Cemig.dll
 G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.pdb
 G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.genruntimeconfig.cache
 G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\ref\Cemig.dll
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.FormCadastrodeConta.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.FormCadastroUsuario.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.FormsConsultaConta.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.FormEditarUsuario.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.FormHome.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.FormListaConsumidores.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.FormLogin.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.Properties.Resources.resources
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.csproj.GenerateResource.cache
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.AssemblyInfoInputs.cache
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.AssemblyInfo.cs
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.csproj.CoreCompileInputs.cache
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.sourcelink.json
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.dll
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\refint\Cemig.dll
+C:\Users\mayckit\Documents\Trab-Final\Cemig\obj\Debug\net8.0-windows\Cemig.pdb
