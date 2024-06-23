@@ -8,7 +8,7 @@ namespace Cemig
     {
         public FormLogin()
         {
-            InitializeComponent();
+            InitializeComponent(); // Certifique-se de que este método é chamado
             CustomizeDesign();
         }
 
@@ -78,12 +78,6 @@ namespace Cemig
             }
         }
 
-        private void btnCadastrar_Click(object sender, EventArgs e)
-        {
-            FormCadastroUsuario formCadastro = new FormCadastroUsuario();
-            formCadastro.Show();
-        }
-
         private void CustomizeDesign()
         {
             this.Text = "Login";
@@ -110,32 +104,6 @@ namespace Cemig
             btnLogin.Location = new Point(80, 200);
             btnLogin.Width = 200;
             btnLogin.Height = 40;
-
-            // Customize Label and Button for Register
-            Label lblCadastrar = new Label();
-            lblCadastrar.Text = "Não tem uma conta?";
-            lblCadastrar.Location = new Point(80, 260);
-            lblCadastrar.Font = new Font("Arial", 10);
-            lblCadastrar.AutoSize = true;
-
-            Button btnCadastrar = new Button();
-            btnCadastrar.Text = "Cadastrar";
-            btnCadastrar.Font = new Font("Arial", 10);
-            btnCadastrar.ForeColor = Color.White;
-            btnCadastrar.BackColor = Color.FromArgb(0, 122, 204);
-            btnCadastrar.FlatStyle = FlatStyle.Flat;
-            btnCadastrar.Location = new Point(200, 255);
-            btnCadastrar.Width = 80;
-            btnCadastrar.Height = 30;
-            btnCadastrar.Click += new EventHandler(btnCadastrar_Click);
-
-            // Add Controls to Form
-            this.Controls.Add(txtUsername);
-            this.Controls.Add(txtPassword);
-            this.Controls.Add(cmbUserType);
-            this.Controls.Add(btnLogin);
-            this.Controls.Add(lblCadastrar);
-            this.Controls.Add(btnCadastrar);
         }
 
         private void CustomizeTextBox(TextBox textBox, string placeholder)
