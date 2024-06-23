@@ -38,7 +38,7 @@
             cnpjBox = new TextBox();
             label4 = new Label();
             label5 = new Label();
-            cadastrarConta = new Button();
+            cadastrar = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -73,6 +73,7 @@
             nresgistro.PlaceholderText = "XXXXXXXXXXXX";
             nresgistro.Size = new Size(125, 23);
             nresgistro.TabIndex = 5;
+            nresgistro.TextChanged += nresgistro_TextChanged;
             // 
             // label2
             // 
@@ -143,16 +144,17 @@
             label5.TabIndex = 12;
             label5.Text = "CNPJ :";
             // 
-            // cadastrarConta
+            // cadastrar
             // 
-            cadastrarConta.BackColor = SystemColors.Control;
-            cadastrarConta.Font = new Font("Poor Richard", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cadastrarConta.Location = new Point(323, 299);
-            cadastrarConta.Name = "cadastrarConta";
-            cadastrarConta.Size = new Size(138, 44);
-            cadastrarConta.TabIndex = 13;
-            cadastrarConta.Text = "Cadastrar";
-            cadastrarConta.UseVisualStyleBackColor = false;
+            cadastrar.BackColor = SystemColors.Control;
+            cadastrar.Font = new Font("Poor Richard", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cadastrar.Location = new Point(323, 299);
+            cadastrar.Name = "cadastrar";
+            cadastrar.Size = new Size(138, 44);
+            cadastrar.TabIndex = 13;
+            cadastrar.Text = "Cadastrar";
+            cadastrar.UseVisualStyleBackColor = false;
+            cadastrar.Click += cadastrar_Click;
             // 
             // FormCadastrodeConta
             // 
@@ -161,7 +163,7 @@
             BackgroundImage = Properties.Resources.fundo_POO;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
-            Controls.Add(cadastrarConta);
+            Controls.Add(cadastrar);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(cnpjBox);
@@ -192,6 +194,6 @@
         private TextBox cnpjBox;
         private Label label4;
         private Label label5;
-        private Button cadastrarConta;
+        private Button cadastrar;
     }
 }

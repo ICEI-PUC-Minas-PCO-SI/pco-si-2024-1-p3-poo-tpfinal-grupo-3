@@ -21,7 +21,6 @@ G:\Cemig POO\Cemig\bin\Debug\net8.0-windows\Cemig.deps.json
 G:\Cemig POO\Cemig\bin\Debug\net8.0-windows\Cemig.runtimeconfig.json
 G:\Cemig POO\Cemig\bin\Debug\net8.0-windows\Cemig.dll
 G:\Cemig POO\Cemig\bin\Debug\net8.0-windows\Cemig.pdb
-G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.Form1.resources
 G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.FormCadastrodeConta.resources
 G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.FormCadastroUsuario.resources
 G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.FormsConsultaConta.resources
