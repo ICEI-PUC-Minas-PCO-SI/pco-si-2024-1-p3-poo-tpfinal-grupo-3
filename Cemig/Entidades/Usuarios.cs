@@ -17,11 +17,11 @@ namespace Cemig.Entidades
         public string Telefone { get; set; }
         public string Estado { get; set; }
         public string Senha { get; set; }
-        public List<string> Contas { get; set; }
+        public List<Conta> Contas { get; set; }
 
         public Usuario()
         {
-            Contas = new List<string>();
+            Contas = new List<Conta>();
         }
 
         public void SalvarDadosNoArquivoXml()
@@ -53,7 +53,15 @@ namespace Cemig.Entidades
                 new XElement("telefone", Telefone),
                 new XElement("estado", Estado),
                 new XElement("senha", Senha),
-                new XElement("contas", new XElement("conta", string.Join(",", Contas))));
+                new XElement("contas",
+                    from conta in Contas
+                    select new XElement("conta",
+                        new XElement("numeroRegistro", conta.NumeroDeRegistro),
+                        new XElement("cpf", conta.Cpf),
+                        new XElement("cnpj", conta.Cnpj),
+                        new XElement("valor", conta.Valor),
+                        new XElement("leituraAtual", conta.LeituraAtual),
+                        new XElement("leituraAnterior", conta.LeituraAnterior))));
 
             rootElement.Add(usuarioElement);
             doc.Save(filePath);

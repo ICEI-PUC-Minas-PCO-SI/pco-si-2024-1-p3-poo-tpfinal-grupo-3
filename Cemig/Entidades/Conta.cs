@@ -20,16 +20,23 @@ namespace Cemig.Entidades
         public int NumeroDeRegistro { get; set; }
         public decimal Valor { get; set; }
 
+        public int LeituraAtual { get; set; }
+        public int LeituraAnterior { get; set; }
+
+        public DateTime DataLeitura { get; set; }
+
         // Construtor padrão
         public Conta() { }
 
         // Construtor com parâmetros
-        public Conta(string cpf, string cnpj, int numeroDeRegistro, decimal valor)
+        public Conta(string cpf, string cnpj, int numeroDeRegistro, decimal valor int leituraAtual, int leituraAnterior)
         {
             Cpf = cpf;
             Cnpj = cnpj;
             NumeroDeRegistro = numeroDeRegistro;
             Valor = valor;
+            LeituraAtual = leituraAtual;
+            LeituraAnterior = leituraAnterior;
         }
     }
 }
