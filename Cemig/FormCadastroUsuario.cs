@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Text.RegularExpressions;
 
 namespace Cemig
 {
@@ -28,9 +27,30 @@ namespace Cemig
                 return;
             }
 
-            // Aqui você pode adicionar a lógica para salvar o consumidor
+            // Captura dos dados de entrada e salvamento no arquivo XML
+            Usuario usuario = new Usuario
+            {
+                Nome = txtNome.Text,
+                CpfCnpj = txtIdentificador.Text,
+                Cep = txtCep.Text,
+                Endereco = txtEndereco.Text,
+                Bairro = txtBairro.Text,
+                Municipio = txtMunicipio.Text,
+                Sexo = txtSexo.Text,
+                Telefone = txtTelefone.Text,
+                Estado = txtEstado.Text,
+                Senha = txtSenha.Text
+            };
 
-            MessageBox.Show("Consumidor cadastrado com sucesso!");
+            try
+            {
+                usuario.SalvarDadosNoArquivoXml();
+                MessageBox.Show("Consumidor cadastrado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao salvar os dados: {ex.Message}");
+            }
         }
 
         private bool IsCpfCnpjValid(string cpfCnpj)
@@ -45,18 +65,13 @@ namespace Cemig
         private bool IsValidCpf(string cpf)
         {
             // Adicione a lógica de validação de CPF aqui
-            return Regex.IsMatch(cpf, @"^\d{11}$");
+            return System.Text.RegularExpressions.Regex.IsMatch(cpf, @"^\d{11}$");
         }
 
         private bool IsValidCnpj(string cnpj)
         {
             // Adicione a lógica de validação de CNPJ aqui
-            return Regex.IsMatch(cnpj, @"^\d{14}$");
-        }
-
-        private void cpfBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
+            return System.Text.RegularExpressions.Regex.IsMatch(cnpj, @"^\d{14}$");
         }
     }
 }
