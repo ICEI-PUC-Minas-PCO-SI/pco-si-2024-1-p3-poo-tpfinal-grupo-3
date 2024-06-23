@@ -15,124 +15,135 @@
 
         private void InitializeComponent()
         {
-            this.lblNome = new System.Windows.Forms.Label();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.lblIdentificador = new System.Windows.Forms.Label();
-            this.txtIdentificador = new System.Windows.Forms.TextBox();
-            this.lblTipoConta = new System.Windows.Forms.Label();
-            this.cmbTipoConta = new System.Windows.Forms.ComboBox();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            lblNome = new Label();
+            txtNome = new TextBox();
+            lblIdentificador = new Label();
+            lblTipoConta = new Label();
+            cmbTipoConta = new ComboBox();
+            lblSenha = new Label();
+            txtSenha = new TextBox();
+            btnCadastrar = new Button();
+            cpfBox = new MaskedTextBox();
+            SuspendLayout();
             // 
             // lblNome
             // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(13, 13);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(38, 13);
-            this.lblNome.TabIndex = 0;
-            this.lblNome.Text = "Nome:";
+            lblNome.AutoSize = true;
+            lblNome.Location = new Point(15, 15);
+            lblNome.Margin = new Padding(4, 0, 4, 0);
+            lblNome.Name = "lblNome";
+            lblNome.Size = new Size(43, 15);
+            lblNome.TabIndex = 0;
+            lblNome.Text = "Nome:";
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(13, 30);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(259, 20);
-            this.txtNome.TabIndex = 1;
+            txtNome.Location = new Point(15, 35);
+            txtNome.Margin = new Padding(4, 3, 4, 3);
+            txtNome.MaxLength = 70;
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(302, 23);
+            txtNome.TabIndex = 1;
             // 
             // lblIdentificador
             // 
-            this.lblIdentificador.AutoSize = true;
-            this.lblIdentificador.Location = new System.Drawing.Point(13, 60);
-            this.lblIdentificador.Name = "lblIdentificador";
-            this.lblIdentificador.Size = new System.Drawing.Size(68, 13);
-            this.lblIdentificador.TabIndex = 2;
-            this.lblIdentificador.Text = "CPF/CNPJ:";
-            // 
-            // txtIdentificador
-            // 
-            this.txtIdentificador.Location = new System.Drawing.Point(13, 77);
-            this.txtIdentificador.Name = "txtIdentificador";
-            this.txtIdentificador.Size = new System.Drawing.Size(259, 20);
-            this.txtIdentificador.TabIndex = 3;
+            lblIdentificador.AutoSize = true;
+            lblIdentificador.Location = new Point(15, 69);
+            lblIdentificador.Margin = new Padding(4, 0, 4, 0);
+            lblIdentificador.Name = "lblIdentificador";
+            lblIdentificador.Size = new Size(63, 15);
+            lblIdentificador.TabIndex = 2;
+            lblIdentificador.Text = "CPF/CNPJ:";
             // 
             // lblTipoConta
             // 
-            this.lblTipoConta.AutoSize = true;
-            this.lblTipoConta.Location = new System.Drawing.Point(13, 108);
-            this.lblTipoConta.Name = "lblTipoConta";
-            this.lblTipoConta.Size = new System.Drawing.Size(72, 13);
-            this.lblTipoConta.TabIndex = 4;
-            this.lblTipoConta.Text = "Tipo de Conta";
+            lblTipoConta.AutoSize = true;
+            lblTipoConta.Location = new Point(15, 125);
+            lblTipoConta.Margin = new Padding(4, 0, 4, 0);
+            lblTipoConta.Name = "lblTipoConta";
+            lblTipoConta.Size = new Size(81, 15);
+            lblTipoConta.TabIndex = 4;
+            lblTipoConta.Text = "Tipo de Conta";
             // 
             // cmbTipoConta
             // 
-            this.cmbTipoConta.FormattingEnabled = true;
-            this.cmbTipoConta.Items.AddRange(new object[] {
-            "Pessoa Fisica",
-            "Pessoa Juridica"});
-            this.cmbTipoConta.Location = new System.Drawing.Point(13, 125);
-            this.cmbTipoConta.Name = "cmbTipoConta";
-            this.cmbTipoConta.Size = new System.Drawing.Size(259, 21);
-            this.cmbTipoConta.TabIndex = 5;
+            cmbTipoConta.FormattingEnabled = true;
+            cmbTipoConta.Items.AddRange(new object[] { "Pessoa Fisica", "Pessoa Juridica" });
+            cmbTipoConta.Location = new Point(15, 144);
+            cmbTipoConta.Margin = new Padding(4, 3, 4, 3);
+            cmbTipoConta.Name = "cmbTipoConta";
+            cmbTipoConta.Size = new Size(302, 23);
+            cmbTipoConta.TabIndex = 5;
             // 
             // lblSenha
             // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(13, 156);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(41, 13);
-            this.lblSenha.TabIndex = 6;
-            this.lblSenha.Text = "Senha:";
+            lblSenha.AutoSize = true;
+            lblSenha.Location = new Point(15, 180);
+            lblSenha.Margin = new Padding(4, 0, 4, 0);
+            lblSenha.Name = "lblSenha";
+            lblSenha.Size = new Size(42, 15);
+            lblSenha.TabIndex = 6;
+            lblSenha.Text = "Senha:";
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(13, 173);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.PasswordChar = '*';
-            this.txtSenha.Size = new System.Drawing.Size(259, 20);
-            this.txtSenha.TabIndex = 7;
+            txtSenha.Location = new Point(15, 200);
+            txtSenha.Margin = new Padding(4, 3, 4, 3);
+            txtSenha.Name = "txtSenha";
+            txtSenha.PasswordChar = '*';
+            txtSenha.Size = new Size(302, 23);
+            txtSenha.TabIndex = 7;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(13, 210);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(259, 23);
-            this.btnCadastrar.TabIndex = 8;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            btnCadastrar.Location = new Point(15, 242);
+            btnCadastrar.Margin = new Padding(4, 3, 4, 3);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new Size(302, 27);
+            btnCadastrar.TabIndex = 8;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
+            // 
+            // cpfBox
+            // 
+            cpfBox.Location = new Point(15, 95);
+            cpfBox.Mask = "000.000.000-00";
+            cpfBox.Name = "cpfBox";
+            cpfBox.Size = new Size(302, 23);
+            cpfBox.TabIndex = 9;
+            cpfBox.TextAlign = HorizontalAlignment.Center;
+            cpfBox.MaskInputRejected += cpfBox_MaskInputRejected;
             // 
             // FormCadastroUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.lblSenha);
-            this.Controls.Add(this.cmbTipoConta);
-            this.Controls.Add(this.lblTipoConta);
-            this.Controls.Add(this.txtIdentificador);
-            this.Controls.Add(this.lblIdentificador);
-            this.Controls.Add(this.txtNome);
-            this.Controls.Add(this.lblNome);
-            this.Name = "FormCadastroUsuario";
-            this.Text = "Cadastro de Consumidor";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(331, 301);
+            Controls.Add(cpfBox);
+            Controls.Add(btnCadastrar);
+            Controls.Add(txtSenha);
+            Controls.Add(lblSenha);
+            Controls.Add(cmbTipoConta);
+            Controls.Add(lblTipoConta);
+            Controls.Add(lblIdentificador);
+            Controls.Add(txtNome);
+            Controls.Add(lblNome);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "FormCadastroUsuario";
+            Text = "Cadastro de Consumidor";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblIdentificador;
-        private System.Windows.Forms.TextBox txtIdentificador;
         private System.Windows.Forms.Label lblTipoConta;
         private System.Windows.Forms.ComboBox cmbTipoConta;
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnCadastrar;
+        private MaskedTextBox cpfBox;
     }
 }

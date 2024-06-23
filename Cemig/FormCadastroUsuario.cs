@@ -53,5 +53,10 @@ namespace Cemig
             // Adicione a lógica de validação de CNPJ aqui
             return Regex.IsMatch(cnpj, @"^\d{14}$");
         }
+
+        private void cpfBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
