@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,41 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:43:38.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.cs",
-              "RelativeDocumentMoniker": "FormLogin.cs",
-              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.cs",
-              "RelativeToolTip": "FormLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.Designer.cs*",
+              "RelativeToolTip": "FormLogin.Designer.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:27:36.041Z",
+              "WhenOpened": "2024-06-23T20:49:28.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.Designer.cs",
-              "RelativeDocumentMoniker": "FormLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.Designer.cs",
-              "RelativeToolTip": "FormLogin.Designer.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAowAkAAAANAAAA",
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.cs",
+              "RelativeDocumentMoniker": "FormLogin.cs",
+              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.cs*",
+              "RelativeToolTip": "FormLogin.cs*",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwHMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:21:06.301Z",
+              "WhenOpened": "2024-06-23T20:27:36.041Z",
               "EditorCaption": ""
             },
             {
@@ -93,8 +76,8 @@
               "Title": "FormLogin.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.cs",
               "RelativeDocumentMoniker": "FormLogin.cs",
-              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.cs [Projeto]",
-              "RelativeToolTip": "FormLogin.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormLogin.cs [Projeto]*",
+              "RelativeToolTip": "FormLogin.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T20:20:25.111Z",
               "EditorCaption": " [Projeto]"
