@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Conta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Cpf>12312312311</Cpf>
-  <Cnpj>31414131311</Cnpj>
-  <NumeroDeRegistro>3321</NumeroDeRegistro>
-  <Valor>9990</Valor>
+  <Cpf>11122233366</Cpf>
+  <Cnpj>1424124141</Cnpj>
+  <NumeroDeRegistro>3344</NumeroDeRegistro>
+  <Valor>120.00</Valor>
 </Conta>

@@ -64,9 +64,10 @@ namespace Cemig
             conta.NumeroDeRegistro = Convert.ToInt32(nresgistro.Text);
             conta.Valor = Convert.ToDecimal(Valor.Text);
 
-            
+           ;
+
             // Criar o caminho completo para o arquivo XML desejado
-            string pastaArquivo = "Arquivo";
+            string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
             string nomeArquivo = "conta.xml";
             string caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
 
