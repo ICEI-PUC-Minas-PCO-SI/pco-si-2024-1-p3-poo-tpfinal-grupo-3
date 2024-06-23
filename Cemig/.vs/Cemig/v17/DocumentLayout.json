@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "G:\\Cemig POO\\Cemig\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formconsultarconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formconsultarconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -51,38 +43,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormConsultarConta.cs [Projeto]",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormConsultarConta.cs",
-              "RelativeDocumentMoniker": "FormConsultarConta.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\FormConsultarConta.cs [Projeto]",
-              "RelativeToolTip": "FormConsultarConta.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:47:21.798Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormEditarUsuario.cs",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormEditarUsuario.cs",
-              "RelativeDocumentMoniker": "FormEditarUsuario.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\FormEditarUsuario.cs",
-              "RelativeToolTip": "FormEditarUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:47:00.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FormEditarUsuario.cs [Projeto]",
               "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormEditarUsuario.cs",
               "RelativeDocumentMoniker": "FormEditarUsuario.cs",
               "ToolTip": "G:\\Cemig POO\\Cemig\\FormEditarUsuario.cs [Projeto]",
               "RelativeToolTip": "FormEditarUsuario.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:46:37.186Z",
+              "WhenOpened": "2024-06-23T01:48:41.724Z",
               "EditorCaption": " [Projeto]"
             }
           ]
