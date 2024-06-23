@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
 
-namespace SeuProjeto
+namespace Cemig.Entidades
 {
     public class Usuario
     {

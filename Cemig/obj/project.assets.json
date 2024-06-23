@@ -8,19 +8,40 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Parre\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> f7e511f5f98fc70d0e61ecd2d5e62abefa388f48
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
       "projectName": "Cemig",
       "projectPath": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
       "packagesPath": "C:\\Users\\Parre\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\obj\\",
+=======
+      "projectUniqueName": "G:\\Cemig POO\\Cemig\\Cemig.csproj",
+      "projectName": "Cemig",
+      "projectPath": "G:\\Cemig POO\\Cemig\\Cemig.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "G:\\Cemig POO\\Cemig\\obj\\",
+>>>>>>> f7e511f5f98fc70d0e61ecd2d5e62abefa388f48
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Parre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> f7e511f5f98fc70d0e61ecd2d5e62abefa388f48
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +49,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

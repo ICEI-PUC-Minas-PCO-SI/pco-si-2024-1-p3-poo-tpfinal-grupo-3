@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "N4UrFvkzB90=",
   "success": true,
   "projectFilePath": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
+=======
+  "dgSpecHash": "dOwbl8dEqKY=",
+  "success": true,
+  "projectFilePath": "G:\\Cemig POO\\Cemig\\Cemig.csproj",
+>>>>>>> f7e511f5f98fc70d0e61ecd2d5e62abefa388f48
   "expectedPackageFiles": [],
   "logs": []
 }
