@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Cemig
+﻿namespace Cemig
 {
     public partial class FormEditarUsuario : Form
     {
@@ -53,6 +43,41 @@ namespace Cemig
         }
 
         private void maksCpf_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void txtNum_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEstado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtRepSenha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAltSenha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMunicipio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBairro_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEndereco_TextChanged(object sender, EventArgs e)
         {
 
         }

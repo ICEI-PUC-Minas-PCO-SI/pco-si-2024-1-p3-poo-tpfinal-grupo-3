@@ -47,6 +47,14 @@
             maskCnpj = new MaskedTextBox();
             maskCep = new MaskedTextBox();
             cmbSexo = new ComboBox();
+            txtEndereco = new TextBox();
+            txtBairro = new TextBox();
+            txtMunicipio = new TextBox();
+            txtAltSenha = new TextBox();
+            txtRepSenha = new TextBox();
+            txtNum = new TextBox();
+            txtEstado = new TextBox();
+            btnSalvar = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -55,7 +63,7 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = Properties.Resources.user;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(343, 12);
+            pictureBox1.Location = new Point(322, 51);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(100, 95);
             pictureBox1.TabIndex = 0;
@@ -64,7 +72,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(78, 149);
+            textBox1.Location = new Point(99, 149);
             textBox1.MaxLength = 50;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(166, 23);
@@ -160,7 +168,7 @@
             label8.AutoSize = true;
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(12, 415);
+            label8.Location = new Point(12, 423);
             label8.Name = "label8";
             label8.Size = new Size(86, 21);
             label8.TabIndex = 2;
@@ -172,7 +180,7 @@
             label9.AutoSize = true;
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(470, 244);
+            label9.Location = new Point(470, 242);
             label9.Name = "label9";
             label9.Size = new Size(108, 21);
             label9.TabIndex = 2;
@@ -194,7 +202,7 @@
             // altSenha
             // 
             altSenha.BackColor = Color.White;
-            altSenha.Location = new Point(551, 285);
+            altSenha.Location = new Point(599, 288);
             altSenha.Margin = new Padding(0);
             altSenha.Name = "altSenha";
             altSenha.Size = new Size(86, 34);
@@ -230,43 +238,111 @@
             // maksCpf
             // 
             maksCpf.Enabled = false;
-            maksCpf.Location = new Point(78, 190);
+            maksCpf.Location = new Point(99, 190);
             maksCpf.Mask = "000.000.000-00";
             maksCpf.Name = "maksCpf";
             maksCpf.Size = new Size(83, 23);
-            maksCpf.TabIndex = 4;
+            maksCpf.TabIndex = 2;
             maksCpf.MaskInputRejected += maksCpf_MaskInputRejected;
             // 
             // maskCnpj
             // 
             maskCnpj.Enabled = false;
-            maskCnpj.Location = new Point(77, 235);
+            maskCnpj.Location = new Point(99, 233);
             maskCnpj.Mask = "00.000.000/0000-00";
             maskCnpj.Name = "maskCnpj";
             maskCnpj.Size = new Size(100, 23);
-            maskCnpj.TabIndex = 5;
+            maskCnpj.TabIndex = 3;
             maskCnpj.MaskInputRejected += maskCnpj_MaskInputRejected;
             // 
             // maskCep
             // 
-            maskCep.Location = new Point(77, 316);
+            maskCep.Location = new Point(99, 312);
             maskCep.Mask = "00000-000";
             maskCep.Name = "maskCep";
-            maskCep.Size = new Size(100, 23);
-            maskCep.TabIndex = 6;
+            maskCep.Size = new Size(127, 23);
+            maskCep.TabIndex = 5;
             maskCep.TextAlign = HorizontalAlignment.Center;
             maskCep.MaskInputRejected += maskCep_MaskInputRejected;
             // 
             // cmbSexo
             // 
+            cmbSexo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbSexo.FlatStyle = FlatStyle.Flat;
             cmbSexo.FormattingEnabled = true;
             cmbSexo.Items.AddRange(new object[] { "Feminino", "Masculino" });
-            cmbSexo.Location = new Point(78, 272);
+            cmbSexo.Location = new Point(99, 272);
             cmbSexo.Name = "cmbSexo";
             cmbSexo.Size = new Size(121, 23);
-            cmbSexo.TabIndex = 7;
+            cmbSexo.TabIndex = 4;
             cmbSexo.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // txtEndereco
+            // 
+            txtEndereco.Location = new Point(99, 346);
+            txtEndereco.Name = "txtEndereco";
+            txtEndereco.Size = new Size(127, 23);
+            txtEndereco.TabIndex = 6;
+            txtEndereco.TextChanged += txtEndereco_TextChanged;
+            // 
+            // txtBairro
+            // 
+            txtBairro.Location = new Point(99, 383);
+            txtBairro.Name = "txtBairro";
+            txtBairro.Size = new Size(127, 23);
+            txtBairro.TabIndex = 8;
+            txtBairro.TextChanged += txtBairro_TextChanged;
+            // 
+            // txtMunicipio
+            // 
+            txtMunicipio.Location = new Point(99, 423);
+            txtMunicipio.Name = "txtMunicipio";
+            txtMunicipio.Size = new Size(122, 23);
+            txtMunicipio.TabIndex = 10;
+            txtMunicipio.TextChanged += txtMunicipio_TextChanged;
+            // 
+            // txtAltSenha
+            // 
+            txtAltSenha.Location = new Point(577, 190);
+            txtAltSenha.Name = "txtAltSenha";
+            txtAltSenha.Size = new Size(132, 23);
+            txtAltSenha.TabIndex = 12;
+            txtAltSenha.TextChanged += txtAltSenha_TextChanged;
+            // 
+            // txtRepSenha
+            // 
+            txtRepSenha.Location = new Point(577, 244);
+            txtRepSenha.Name = "txtRepSenha";
+            txtRepSenha.Size = new Size(132, 23);
+            txtRepSenha.TabIndex = 13;
+            txtRepSenha.TextChanged += txtRepSenha_TextChanged;
+            // 
+            // txtNum
+            // 
+            txtNum.Location = new Point(578, 346);
+            txtNum.Name = "txtNum";
+            txtNum.Size = new Size(131, 23);
+            txtNum.TabIndex = 7;
+            txtNum.TextChanged += txtNum_TextChanged;
+            // 
+            // txtEstado
+            // 
+            txtEstado.CharacterCasing = CharacterCasing.Upper;
+            txtEstado.Location = new Point(577, 387);
+            txtEstado.Name = "txtEstado";
+            txtEstado.Size = new Size(131, 23);
+            txtEstado.TabIndex = 9;
+            txtEstado.TextChanged += txtEstado_TextChanged;
+            // 
+            // btnSalvar
+            // 
+            btnSalvar.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSalvar.Location = new Point(312, 413);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(110, 44);
+            btnSalvar.TabIndex = 15;
+            btnSalvar.Text = "SALVAR";
+            btnSalvar.UseVisualStyleBackColor = true;
             // 
             // FormEditarUsuario
             // 
@@ -275,6 +351,14 @@
             BackgroundImage = Properties.Resources.fundo_POO;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 469);
+            Controls.Add(btnSalvar);
+            Controls.Add(txtEstado);
+            Controls.Add(txtNum);
+            Controls.Add(txtRepSenha);
+            Controls.Add(txtAltSenha);
+            Controls.Add(txtMunicipio);
+            Controls.Add(txtBairro);
+            Controls.Add(txtEndereco);
             Controls.Add(cmbSexo);
             Controls.Add(maskCep);
             Controls.Add(maskCnpj);
@@ -323,5 +407,13 @@
         private MaskedTextBox maskCnpj;
         private MaskedTextBox maskCep;
         private ComboBox cmbSexo;
+        private TextBox txtEndereco;
+        private TextBox txtBairro;
+        private TextBox txtMunicipio;
+        private TextBox txtAltSenha;
+        private TextBox txtRepSenha;
+        private TextBox txtNum;
+        private TextBox txtEstado;
+        private Button btnSalvar;
     }
 }

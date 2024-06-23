@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "G:\\Cemig POO\\Cemig\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formcadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formcadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,13 +43,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormEditarUsuario.cs [Projeto]",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormEditarUsuario.cs",
-              "RelativeDocumentMoniker": "FormEditarUsuario.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\FormEditarUsuario.cs [Projeto]",
-              "RelativeToolTip": "FormEditarUsuario.cs [Projeto]",
+              "Title": "FormCadastroUsuario.cs [Projeto]",
+              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormCadastroUsuario.cs",
+              "RelativeDocumentMoniker": "FormCadastroUsuario.cs",
+              "ToolTip": "G:\\Cemig POO\\Cemig\\FormCadastroUsuario.cs [Projeto]",
+              "RelativeToolTip": "FormCadastroUsuario.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:48:41.724Z",
+              "WhenOpened": "2024-06-23T03:05:53.669Z",
               "EditorCaption": " [Projeto]"
             }
           ]
