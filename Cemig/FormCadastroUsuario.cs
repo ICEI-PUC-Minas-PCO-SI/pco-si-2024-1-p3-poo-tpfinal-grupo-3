@@ -41,7 +41,8 @@ namespace Cemig
                 Sexo = txtSexo.Text,
                 Telefone = txtTelefone.Text,
                 Estado = txtEstado.Text,
-                Senha = txtSenha.Text
+                Senha = txtSenha.Text,
+                Tipo = cmbTipoConta.SelectedItem.ToString()
             };
 
             string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");

@@ -42,6 +42,7 @@ namespace Cemig.Entidades
         public string Telefone { get; set; }
         public string Estado { get; set; }
         public string Senha { get; set; }
+        public string Tipo { get; set; }
         public List<Conta> Contas { get; set; }
         public List<string> Roles { get; set; }
 
@@ -52,7 +53,7 @@ namespace Cemig.Entidades
         }
 
         // Construtor que aceita parâmetros
-        public Usuario(string nome, string cpfCnpj, string cep, string endereco, string bairro, string municipio, string sexo, string telefone, string estado, string senha, List<string> roles)
+        public Usuario(string nome, string cpfCnpj, string cep, string endereco, string bairro, string municipio, string sexo, string telefone, string estado, string senha, List<string> roles, string tipo)
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Arquivo", "conta.xml");
 
@@ -92,6 +93,7 @@ namespace Cemig.Entidades
 
             rootElement.Add(usuarioElement);
             doc.Save(filePath);
+            Tipo = tipo;
         }
     }
 }
