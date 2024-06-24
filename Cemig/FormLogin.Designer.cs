@@ -27,6 +27,7 @@
             // 
             txtUsername.Location = new Point(80, 80);
             txtUsername.Name = "txtUsername";
+            txtUsername.PlaceholderText = "Digite seu CPF/CNPJ:";
             txtUsername.Size = new Size(200, 23);
             txtUsername.TabIndex = 0;
             txtUsername.TextChanged += txtUsername_TextChanged;
@@ -35,6 +36,7 @@
             // 
             txtPassword.Location = new Point(80, 120);
             txtPassword.Name = "txtPassword";
+            txtPassword.PlaceholderText = "Digite sua senha:";
             txtPassword.Size = new Size(200, 23);
             txtPassword.TabIndex = 1;
             txtPassword.UseSystemPasswordChar = true;
