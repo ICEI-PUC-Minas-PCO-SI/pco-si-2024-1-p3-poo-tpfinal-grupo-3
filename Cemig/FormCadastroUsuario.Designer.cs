@@ -130,7 +130,7 @@
             // cmbTipoConta
             // 
             cmbTipoConta.FormattingEnabled = true;
-            cmbTipoConta.Items.AddRange(new object[] { "Tipo1", "Tipo2", "Tipo3" });
+            cmbTipoConta.Items.AddRange(new object[] { "Usuario ", "Admin" });
             cmbTipoConta.Location = new Point(140, 381);
             cmbTipoConta.Margin = new Padding(4, 3, 4, 3);
             cmbTipoConta.Name = "cmbTipoConta";
