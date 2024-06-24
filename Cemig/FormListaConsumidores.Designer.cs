@@ -5,6 +5,7 @@
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.DataGridView dataGridViewConsumers;
         private System.Windows.Forms.Button btnDetails;
+        private System.Windows.Forms.Button resEst;
 
         protected override void Dispose(bool disposing)
         {
@@ -33,22 +34,30 @@
             // 
             // btnDetails
             // 
+            btnDetails.BackColor = Color.FromArgb(0, 122, 204);
+            btnDetails.FlatStyle = FlatStyle.Flat;
+            btnDetails.Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            btnDetails.ForeColor = Color.White;
             btnDetails.Location = new Point(12, 420);
             btnDetails.Name = "btnDetails";
-            btnDetails.Size = new Size(100, 30);
+            btnDetails.Size = new Size(135, 40);
             btnDetails.TabIndex = 1;
             btnDetails.Text = "Ver Detalhes";
-            btnDetails.UseVisualStyleBackColor = true;
+            btnDetails.UseVisualStyleBackColor = false;
             btnDetails.Click += btnDetails_Click;
             // 
             // resEst
             // 
+            resEst.BackColor = Color.FromArgb(0, 122, 204);
+            resEst.FlatStyle = FlatStyle.Flat;
+            resEst.Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            resEst.ForeColor = Color.White;
             resEst.Location = new Point(637, 423);
             resEst.Name = "resEst";
-            resEst.Size = new Size(135, 27);
+            resEst.Size = new Size(135, 40);
             resEst.TabIndex = 2;
-            resEst.Text = "Registro de Estatisticas";
-            resEst.UseVisualStyleBackColor = true;
+            resEst.Text = "Registro de Estatísticas";
+            resEst.UseVisualStyleBackColor = false;
             resEst.Click += resEst_Click;
             // 
             // FormListaConsumidores
@@ -62,7 +71,5 @@
             ((System.ComponentModel.ISupportInitialize)dataGridViewConsumers).EndInit();
             ResumeLayout(false);
         }
-
-        private Button resEst;
     }
 }

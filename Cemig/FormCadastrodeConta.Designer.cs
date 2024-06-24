@@ -2,15 +2,8 @@
 {
     partial class FormCadastrodeConta
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +15,6 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             pictureBox1 = new PictureBox();
@@ -59,10 +48,10 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Poor Richard", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(288, 9);
+            label1.Font = new Font("Arial", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(300, 20);
             label1.Name = "label1";
-            label1.Size = new Size(201, 31);
+            label1.Size = new Size(210, 32);
             label1.TabIndex = 2;
             label1.Text = "Cadastro de Conta";
             label1.Click += label1_Click;
@@ -72,7 +61,7 @@
             nresgistro.Location = new Point(364, 136);
             nresgistro.Name = "nresgistro";
             nresgistro.PlaceholderText = "XXXXXXXXXXXX";
-            nresgistro.Size = new Size(125, 23);
+            nresgistro.Size = new Size(200, 23);
             nresgistro.TabIndex = 5;
             nresgistro.TextChanged += nresgistro_TextChanged;
             // 
@@ -80,40 +69,42 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Poor Richard", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             label2.Location = new Point(260, 137);
             label2.Name = "label2";
-            label2.Size = new Size(94, 18);
+            label2.Size = new Size(98, 17);
             label2.TabIndex = 6;
-            label2.Text = "Nº de Registro :";
+            label2.Text = "Nº de Registro:";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Poor Richard", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(288, 186);
             label3.Name = "label3";
-            label3.Size = new Size(46, 18);
+            label3.Size = new Size(46, 17);
             label3.TabIndex = 7;
-            label3.Text = "Valor :";
+            label3.Text = "Valor:";
             // 
             // Valor
             // 
             Valor.Location = new Point(364, 186);
             Valor.Name = "Valor";
             Valor.PlaceholderText = "Valor mês atual";
-            Valor.Size = new Size(125, 23);
+            Valor.Size = new Size(200, 23);
             Valor.TabIndex = 8;
             Valor.TextChanged += textBox2_TextChanged_1;
             // 
             // cadastrar
             // 
-            cadastrar.BackColor = SystemColors.Control;
-            cadastrar.Font = new Font("Poor Richard", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cadastrar.Location = new Point(323, 299);
+            cadastrar.BackColor = Color.FromArgb(0, 122, 204);
+            cadastrar.FlatStyle = FlatStyle.Flat;
+            cadastrar.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            cadastrar.ForeColor = Color.White;
+            cadastrar.Location = new Point(364, 299);
             cadastrar.Name = "cadastrar";
-            cadastrar.Size = new Size(138, 44);
+            cadastrar.Size = new Size(200, 40);
             cadastrar.TabIndex = 13;
             cadastrar.Text = "Cadastrar";
             cadastrar.UseVisualStyleBackColor = false;
@@ -123,9 +114,10 @@
             // 
             pessoaFis.AutoSize = true;
             pessoaFis.BackColor = Color.Transparent;
+            pessoaFis.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             pessoaFis.Location = new Point(295, 53);
             pessoaFis.Name = "pessoaFis";
-            pessoaFis.Size = new Size(93, 19);
+            pessoaFis.Size = new Size(106, 21);
             pessoaFis.TabIndex = 14;
             pessoaFis.TabStop = true;
             pessoaFis.Text = "Pessoa Fisica";
@@ -136,9 +128,10 @@
             // 
             pessoaJur.AutoSize = true;
             pessoaJur.BackColor = Color.Transparent;
-            pessoaJur.Location = new Point(395, 53);
+            pessoaJur.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            pessoaJur.Location = new Point(407, 53);
             pessoaJur.Name = "pessoaJur";
-            pessoaJur.Size = new Size(104, 19);
+            pessoaJur.Size = new Size(118, 21);
             pessoaJur.TabIndex = 15;
             pessoaJur.TabStop = true;
             pessoaJur.Text = "Pessoa Juridica";
@@ -149,18 +142,18 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Poor Richard", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(238, 89);
             label4.Name = "label4";
-            label4.Size = new Size(79, 18);
+            label4.Size = new Size(79, 17);
             label4.TabIndex = 17;
-            label4.Text = "CPF/CNPJ :";
+            label4.Text = "CPF/CNPJ:";
             // 
             // txtCpfCnpj
             // 
             txtCpfCnpj.Location = new Point(323, 84);
             txtCpfCnpj.Name = "txtCpfCnpj";
-            txtCpfCnpj.Size = new Size(155, 23);
+            txtCpfCnpj.Size = new Size(241, 23);
             txtCpfCnpj.TabIndex = 18;
             txtCpfCnpj.MaskInputRejected += txtCpfCnpj_MaskInputRejected;
             // 
@@ -168,11 +161,11 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Poor Richard", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.Black;
             label5.Location = new Point(3, 9);
             label5.Name = "label5";
-            label5.Size = new Size(93, 16);
+            label5.Size = new Size(106, 16);
             label5.TabIndex = 19;
             label5.Text = "Consultar Contas";
             label5.Click += label5_Click;
@@ -196,7 +189,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "FormCadastrodeConta";
-            Text = "FormCadastrodeConta";
+            Text = "Cadastro de Conta";
             Load += FormCadastrodeConta_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

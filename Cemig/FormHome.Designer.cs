@@ -7,6 +7,8 @@
         private System.Windows.Forms.Button btnAddAccount;
         private System.Windows.Forms.Button btnRegisterConsumption;
         private System.Windows.Forms.Button btnConsultAccounts;
+        private System.Windows.Forms.PictureBox editUser;
+        private System.Windows.Forms.Label label1;
 
         protected override void Dispose(bool disposing)
         {
@@ -40,32 +42,44 @@
             // 
             // btnAddAccount
             // 
+            btnAddAccount.BackColor = Color.FromArgb(0, 122, 204);
+            btnAddAccount.FlatStyle = FlatStyle.Flat;
+            btnAddAccount.Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAddAccount.ForeColor = Color.White;
             btnAddAccount.Location = new Point(12, 230);
             btnAddAccount.Name = "btnAddAccount";
-            btnAddAccount.Size = new Size(140, 30);
+            btnAddAccount.Size = new Size(140, 40);
             btnAddAccount.TabIndex = 1;
             btnAddAccount.Text = "Adicionar Conta";
-            btnAddAccount.UseVisualStyleBackColor = true;
+            btnAddAccount.UseVisualStyleBackColor = false;
             btnAddAccount.Click += BtnAddAccount_Click;
             // 
             // btnRegisterConsumption
             // 
+            btnRegisterConsumption.BackColor = Color.FromArgb(0, 122, 204);
+            btnRegisterConsumption.FlatStyle = FlatStyle.Flat;
+            btnRegisterConsumption.Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRegisterConsumption.ForeColor = Color.White;
             btnRegisterConsumption.Location = new Point(166, 230);
             btnRegisterConsumption.Name = "btnRegisterConsumption";
-            btnRegisterConsumption.Size = new Size(140, 30);
+            btnRegisterConsumption.Size = new Size(140, 40);
             btnRegisterConsumption.TabIndex = 2;
             btnRegisterConsumption.Text = "Registrar Consumo";
-            btnRegisterConsumption.UseVisualStyleBackColor = true;
+            btnRegisterConsumption.UseVisualStyleBackColor = false;
             btnRegisterConsumption.Click += BtnRegisterConsumption_Click;
             // 
             // btnConsultAccounts
             // 
+            btnConsultAccounts.BackColor = Color.FromArgb(0, 122, 204);
+            btnConsultAccounts.FlatStyle = FlatStyle.Flat;
+            btnConsultAccounts.Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            btnConsultAccounts.ForeColor = Color.White;
             btnConsultAccounts.Location = new Point(320, 230);
             btnConsultAccounts.Name = "btnConsultAccounts";
-            btnConsultAccounts.Size = new Size(140, 30);
+            btnConsultAccounts.Size = new Size(140, 40);
             btnConsultAccounts.TabIndex = 3;
             btnConsultAccounts.Text = "Consultar Contas";
-            btnConsultAccounts.UseVisualStyleBackColor = true;
+            btnConsultAccounts.UseVisualStyleBackColor = false;
             btnConsultAccounts.Click += BtnConsultAccounts_Click;
             // 
             // editUser
@@ -104,8 +118,5 @@
             ResumeLayout(false);
             PerformLayout();
         }
-
-        private PictureBox editUser;
-        private Label label1;
     }
 }
