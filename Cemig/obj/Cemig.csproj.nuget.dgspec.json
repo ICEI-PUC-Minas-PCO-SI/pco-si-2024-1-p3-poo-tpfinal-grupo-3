@@ -1,24 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Cemig POO\\Cemig\\Cemig.csproj": {}
+<<<<<<< HEAD
+    "C:\\Users\\mathe\\Downloads\\POO - Pasta Correta\\Trabalho\\Cemig\\Cemig.csproj": {}
   },
   "projects": {
-    "G:\\Cemig POO\\Cemig\\Cemig.csproj": {
+    "C:\\Users\\mathe\\Downloads\\POO - Pasta Correta\\Trabalho\\Cemig\\Cemig.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Cemig POO\\Cemig\\Cemig.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\Downloads\\POO - Pasta Correta\\Trabalho\\Cemig\\Cemig.csproj",
         "projectName": "Cemig",
-        "projectPath": "G:\\Cemig POO\\Cemig\\Cemig.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "G:\\Cemig POO\\Cemig\\obj\\",
+        "projectPath": "C:\\Users\\mathe\\Downloads\\POO - Pasta Correta\\Trabalho\\Cemig\\Cemig.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathe\\Downloads\\POO - Pasta Correta\\Trabalho\\Cemig\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
+        "projectName": "Cemig",
+        "projectPath": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
+        "packagesPath": "C:\\Users\\Parre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Parre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a270db153a0f9cac7347b10492b01c321e9c2326
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +39,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
