@@ -130,7 +130,7 @@
             // cmbTipoConta
             // 
             cmbTipoConta.FormattingEnabled = true;
-            cmbTipoConta.Items.AddRange(new object[] { "Usuario ", "Admin" });
+            cmbTipoConta.Items.AddRange(new object[] { "Usuario", "Admin" });
             cmbTipoConta.Location = new Point(140, 381);
             cmbTipoConta.Margin = new Padding(4, 3, 4, 3);
             cmbTipoConta.Name = "cmbTipoConta";
@@ -139,10 +139,14 @@
             // 
             // btnCadastrar
             // 
+            btnCadastrar.BackColor = Color.FromArgb(0, 122, 204);
+            btnCadastrar.FlatStyle = FlatStyle.Flat;
+            btnCadastrar.Font = new Font("Arial", 10F);
+            btnCadastrar.ForeColor = Color.White;
             btnCadastrar.Location = new Point(140, 415);
             btnCadastrar.Margin = new Padding(4, 3, 4, 3);
             btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(175, 27);
+            btnCadastrar.Size = new Size(174, 27);
             btnCadastrar.TabIndex = 11;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
@@ -262,6 +266,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(350, 462);
             Controls.Add(txtNome);
             Controls.Add(txtIdentificador);
