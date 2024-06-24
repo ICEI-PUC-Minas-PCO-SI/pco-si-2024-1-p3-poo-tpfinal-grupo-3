@@ -1,6 +1,9 @@
 ﻿using Cemig.Entidades;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
@@ -9,24 +12,34 @@ namespace Cemig
     public partial class FormLogin : Form
     {
         private readonly string caminhoCompleto;
+        private readonly Usuario adminUsuario;
+        
+
         public FormLogin()
         {
             InitializeComponent();
             CustomizeDesign();
 
             string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
-            string nomeArquivo = "conta.xml";
+            string nomeArquivo = "usuario.xml";
             caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
+
+            // Definir o usuário administrador
+            adminUsuario = new Usuario
+            {
+                Nome = "Admin",
+                CpfCnpj = "11122233344455",
+                Senha = "1234",
+                Roles = new List<string> { "Admin" }
+            };
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-            // Adiciona itens à ComboBox
             cmbUserType.Items.Add("Admin");
             cmbUserType.Items.Add("Usuario");
-            cmbUserType.SelectedIndex = 0; // Seleciona o primeiro item por padrão
+            cmbUserType.SelectedIndex = 0;
 
-            // Simula placeholder nos TextBoxes
             txtUsername.GotFocus += RemovePlaceholder;
             txtUsername.LostFocus += SetPlaceholder;
             txtPassword.GotFocus += RemovePlaceholder;
@@ -35,15 +48,29 @@ namespace Cemig
             SetPlaceholder(txtUsername, EventArgs.Empty);
             SetPlaceholder(txtPassword, EventArgs.Empty);
         }
+
         private List<Usuario> LerUsuariosDoArquivo()
         {
             List<Usuario> usuarios = new List<Usuario>();
             if (File.Exists(caminhoCompleto))
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(List<Usuario>));
-                using (FileStream fileStream = new FileStream(caminhoCompleto, FileMode.Open))
+                try
                 {
-                    usuarios = (List<Usuario>)serializer.Deserialize(fileStream);
+                    XmlSerializer listSerializer = new XmlSerializer(typeof(List<Usuario>), new XmlRootAttribute("usuarios"));
+                    using (FileStream fileStream = new FileStream(caminhoCompleto, FileMode.Open))
+                    {
+                        usuarios = (List<Usuario>)listSerializer.Deserialize(fileStream);
+                    }
+                }
+                catch (InvalidOperationException)
+                {
+                    XmlSerializer singleSerializer = new XmlSerializer(typeof(Usuario));
+                    using (FileStream fileStream = new FileStream(caminhoCompleto, FileMode.Open))
+                    {
+                        Usuario usuario = (Usuario)singleSerializer.Deserialize(fileStream);
+                        usuario.Roles = new List<string> { usuario.Tipo };
+                        usuarios.Add(usuario);
+                    }
                 }
             }
             return usuarios;
@@ -56,13 +83,25 @@ namespace Cemig
             string userType = cmbUserType.SelectedItem.ToString();
 
             List<Usuario> usuarios = LerUsuariosDoArquivo();
-            Usuario usuarioLogado = usuarios.FirstOrDefault(u => u.CpfCnpj == username && u.Senha == password && (u.Roles.Contains(userType)));
+            usuarios.Add(adminUsuario); // Adicionar o usuário administrador à lista
 
+            Usuario usuarioLogado = usuarios.FirstOrDefault(u => u.CpfCnpj == username && u.Senha == password && u.Roles.Contains(userType));
+            
             if (usuarioLogado != null)
             {
                 MessageBox.Show($"Login como {userType} bem-sucedido!");
-                FormEditarUsuario formEditarUsuario = new FormEditarUsuario(username);
-                formEditarUsuario.Show();
+
+                if (userType == "Admin")
+                {
+                    FormHome formHome = new FormHome();
+                    formHome.Show();
+                }
+                else
+                {
+                    FormHome formHome = new FormHome();
+                    formHome.Show();
+                }
+
                 this.Hide();
             }
             else
@@ -70,7 +109,6 @@ namespace Cemig
                 MessageBox.Show("Credenciais de login inválidas. Tente novamente.");
             }
         }
-
 
         private void RemovePlaceholder(object sender, EventArgs e)
         {
@@ -113,18 +151,15 @@ namespace Cemig
             this.StartPosition = FormStartPosition.CenterScreen;
             this.BackColor = Color.White;
 
-            // Customize TextBox
             CustomizeTextBox(txtUsername, "Usuário");
             CustomizeTextBox(txtPassword, "Senha");
 
-            // Customize ComboBox
             cmbUserType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbUserType.Font = new Font("Arial", 12);
             cmbUserType.ForeColor = Color.Black;
             cmbUserType.Location = new Point(80, 160);
             cmbUserType.Width = 200;
 
-            // Customize Button
             btnLogin.Font = new Font("Arial", 12);
             btnLogin.ForeColor = Color.White;
             btnLogin.BackColor = Color.FromArgb(0, 122, 204);
@@ -133,7 +168,6 @@ namespace Cemig
             btnLogin.Width = 200;
             btnLogin.Height = 40;
 
-            // Customize Label and Button for Register
             Label lblCadastrar = new Label();
             lblCadastrar.Text = "Não tem uma conta?";
             lblCadastrar.Location = new Point(80, 260);
@@ -151,7 +185,6 @@ namespace Cemig
             btnCadastrar.Height = 30;
             btnCadastrar.Click += new EventHandler(btnCadastrar_Click);
 
-            // Add Controls to Form
             this.Controls.Add(txtUsername);
             this.Controls.Add(txtPassword);
             this.Controls.Add(cmbUserType);
@@ -172,12 +205,10 @@ namespace Cemig
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void cmbUserType_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
     }
 }
