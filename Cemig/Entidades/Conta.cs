@@ -15,19 +15,17 @@ namespace Cemig.Entidades
     public class Conta
     {
         // Atributos
-        public string  Cpf { get; set; }
-        public string Cnpj { get; set; }
-        public int NumeroDeRegistro { get; set; }
-        public decimal Valor { get; set; }
+        public  string  Indentificacao { get; set; }
+        public  int NumeroDeRegistro { get; set; }
+        public  string Valor { get; set; }
 
         // Construtor padrão
         public Conta() { }
 
         // Construtor com parâmetros
-        public Conta(string cpf, string cnpj, int numeroDeRegistro, decimal valor)
+        public Conta(string cpf, string identificacao, int numeroDeRegistro, string valor)
         {
-            Cpf = cpf;
-            Cnpj = cnpj;
+            Indentificacao = identificacao;
             NumeroDeRegistro = numeroDeRegistro;
             Valor = valor;
         }

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Cemig
 {
@@ -55,16 +56,28 @@ namespace Cemig
 
         private void cadastrar_Click(object sender, EventArgs e)
         {
+            string identificacao = txtCpfCnpj.Text;
 
-           
-            // Criar um objeto de conta com os dados do formulário
-            Conta conta = new Conta();
-            conta.Cpf = cpfBox.Text;
-            conta.Cnpj = cnpjBox.Text;
-            conta.NumeroDeRegistro = Convert.ToInt32(nresgistro.Text);
-            conta.Valor = Convert.ToDecimal(Valor.Text);
+            if (pessoaFis.Checked)
+            {
+                // Salvar dados sem validar CPF
+                SalvarDados("Pessoa Física", identificacao);
+            }
+            else if (pessoaJur.Checked)
+            {
+                // Salvar dados sem validar CNPJ
+                SalvarDados("Pessoa Jurídica", identificacao);
+            }
+        }
 
-           ;
+        private void SalvarDados(string tipoPessoa, string identificacao)
+        {
+            Conta conta = new Conta
+            {
+                Indentificacao = identificacao,
+                NumeroDeRegistro = Convert.ToInt32(nresgistro.Text),
+                Valor = Convert.ToDecimal(Valor.Text).ToString("F2")
+            };
 
             // Criar o caminho completo para o arquivo XML desejado
             string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
@@ -74,12 +87,10 @@ namespace Cemig
             // Criar a pasta se ela não existir
             Directory.CreateDirectory(pastaArquivo);
 
-           
             // Salvar a conta como um arquivo XML
-            XmlSerializer serializer = new XmlSerializer(typeof(Conta), new XmlRootAttribute("Conta"));
+            XmlSerializer serializer = new XmlSerializer(typeof(Conta));
             using (StreamWriter streamWriter = new StreamWriter(caminhoCompleto))
             {
-                MessageBox.Show("SALVANDO" );
                 serializer.Serialize(streamWriter, conta);
             }
 
@@ -96,13 +107,12 @@ namespace Cemig
                 string[] linhas = System.IO.File.ReadAllLines(caminhoArquivo);
                 foreach (string linha in linhas)
                 {
-                    string[] dados = linha.Split(',');
+                    string[] dados = linha.Split('|');
                     Conta conta = new Conta
                     {
-                        Cpf = dados[0],
-                        Cnpj = dados[1],
-                        NumeroDeRegistro = int.Parse(dados[2]),
-                        Valor = decimal.Parse(dados[3])
+                        Indentificacao = dados[0],
+                        NumeroDeRegistro = int.Parse(dados[1]),
+                        Valor = (dados[2])
                     };
 
                 }
@@ -110,5 +120,31 @@ namespace Cemig
         }
 
        
+
+
+        private void pessoaFis_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pessoaFis.Checked)
+            {
+                txtCpfCnpj.Mask = "000.000.000-00";
+                txtCpfCnpj.Clear();
+
+            }
+
+        }
+
+        private void pessoaJur_CheckedChanged(object sender, EventArgs e)
+        {
+            if (pessoaJur.Checked)
+            {
+                txtCpfCnpj.Mask = "00.000.000/0000-00";
+                txtCpfCnpj.Clear();
+            }
+        }
+
+        private void txtCpfCnpj_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

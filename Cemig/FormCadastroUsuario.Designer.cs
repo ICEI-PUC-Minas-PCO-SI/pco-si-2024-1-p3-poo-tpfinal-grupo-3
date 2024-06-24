@@ -17,238 +17,280 @@
 
         private void InitializeComponent()
         {
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtIdentificador = new System.Windows.Forms.TextBox();
-            this.txtCep = new System.Windows.Forms.TextBox();
-            this.txtEndereco = new System.Windows.Forms.TextBox();
-            this.txtBairro = new System.Windows.Forms.TextBox();
-            this.txtMunicipio = new System.Windows.Forms.TextBox();
-            this.txtSexo = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
-            this.txtEstado = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.cmbTipoConta = new System.Windows.Forms.ComboBox();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-
-            this.lblNome = new System.Windows.Forms.Label();
-            this.lblIdentificador = new System.Windows.Forms.Label();
-            this.lblCep = new System.Windows.Forms.Label();
-            this.lblEndereco = new System.Windows.Forms.Label();
-            this.lblBairro = new System.Windows.Forms.Label();
-            this.lblMunicipio = new System.Windows.Forms.Label();
-            this.lblSexo = new System.Windows.Forms.Label();
-            this.lblTelefone = new System.Windows.Forms.Label();
-            this.lblEstado = new System.Windows.Forms.Label();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.lblTipoConta = new System.Windows.Forms.Label();
-
-            this.SuspendLayout();
-
+            txtNome = new TextBox();
+            txtIdentificador = new TextBox();
+            txtCep = new TextBox();
+            txtEndereco = new TextBox();
+            txtBairro = new TextBox();
+            txtMunicipio = new TextBox();
+            txtSexo = new TextBox();
+            txtTelefone = new TextBox();
+            txtEstado = new TextBox();
+            txtSenha = new TextBox();
+            cmbTipoConta = new ComboBox();
+            btnCadastrar = new Button();
+            lblNome = new Label();
+            lblIdentificador = new Label();
+            lblCep = new Label();
+            lblEndereco = new Label();
+            lblBairro = new Label();
+            lblMunicipio = new Label();
+            lblSexo = new Label();
+            lblTelefone = new Label();
+            lblEstado = new Label();
+            lblSenha = new Label();
+            lblTipoConta = new Label();
+            SuspendLayout();
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(120, 30);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(150, 20);
-            this.txtNome.TabIndex = 0;
+            txtNome.Location = new Point(140, 35);
+            txtNome.Margin = new Padding(4, 3, 4, 3);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(174, 23);
+            txtNome.TabIndex = 0;
+            txtNome.TextChanged += txtNome_TextChanged;
             // 
             // txtIdentificador
             // 
-            this.txtIdentificador.Location = new System.Drawing.Point(120, 60);
-            this.txtIdentificador.Name = "txtIdentificador";
-            this.txtIdentificador.Size = new System.Drawing.Size(150, 20);
-            this.txtIdentificador.TabIndex = 1;
+            txtIdentificador.Location = new Point(140, 69);
+            txtIdentificador.Margin = new Padding(4, 3, 4, 3);
+            txtIdentificador.Name = "txtIdentificador";
+            txtIdentificador.Size = new Size(174, 23);
+            txtIdentificador.TabIndex = 1;
+            txtIdentificador.TextChanged += txtIdentificador_TextChanged;
             // 
             // txtCep
             // 
-            this.txtCep.Location = new System.Drawing.Point(120, 90);
-            this.txtCep.Name = "txtCep";
-            this.txtCep.Size = new System.Drawing.Size(150, 20);
-            this.txtCep.TabIndex = 2;
+            txtCep.Location = new Point(140, 104);
+            txtCep.Margin = new Padding(4, 3, 4, 3);
+            txtCep.Name = "txtCep";
+            txtCep.Size = new Size(174, 23);
+            txtCep.TabIndex = 2;
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Location = new System.Drawing.Point(120, 120);
-            this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(150, 20);
-            this.txtEndereco.TabIndex = 3;
+            txtEndereco.Location = new Point(140, 138);
+            txtEndereco.Margin = new Padding(4, 3, 4, 3);
+            txtEndereco.Name = "txtEndereco";
+            txtEndereco.Size = new Size(174, 23);
+            txtEndereco.TabIndex = 3;
+            txtEndereco.TextChanged += txtEndereco_TextChanged;
             // 
             // txtBairro
             // 
-            this.txtBairro.Location = new System.Drawing.Point(120, 150);
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(150, 20);
-            this.txtBairro.TabIndex = 4;
+            txtBairro.Location = new Point(140, 173);
+            txtBairro.Margin = new Padding(4, 3, 4, 3);
+            txtBairro.Name = "txtBairro";
+            txtBairro.Size = new Size(174, 23);
+            txtBairro.TabIndex = 4;
+            txtBairro.TextChanged += txtBairro_TextChanged;
             // 
             // txtMunicipio
             // 
-            this.txtMunicipio.Location = new System.Drawing.Point(120, 180);
-            this.txtMunicipio.Name = "txtMunicipio";
-            this.txtMunicipio.Size = new System.Drawing.Size(150, 20);
-            this.txtMunicipio.TabIndex = 5;
+            txtMunicipio.Location = new Point(140, 208);
+            txtMunicipio.Margin = new Padding(4, 3, 4, 3);
+            txtMunicipio.Name = "txtMunicipio";
+            txtMunicipio.Size = new Size(174, 23);
+            txtMunicipio.TabIndex = 5;
+            txtMunicipio.TextChanged += txtMunicipio_TextChanged;
             // 
             // txtSexo
             // 
-            this.txtSexo.Location = new System.Drawing.Point(120, 210);
-            this.txtSexo.Name = "txtSexo";
-            this.txtSexo.Size = new System.Drawing.Size(150, 20);
-            this.txtSexo.TabIndex = 6;
+            txtSexo.Location = new Point(140, 242);
+            txtSexo.Margin = new Padding(4, 3, 4, 3);
+            txtSexo.Name = "txtSexo";
+            txtSexo.Size = new Size(174, 23);
+            txtSexo.TabIndex = 6;
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Location = new System.Drawing.Point(120, 240);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(150, 20);
-            this.txtTelefone.TabIndex = 7;
+            txtTelefone.Location = new Point(140, 277);
+            txtTelefone.Margin = new Padding(4, 3, 4, 3);
+            txtTelefone.Name = "txtTelefone";
+            txtTelefone.Size = new Size(174, 23);
+            txtTelefone.TabIndex = 7;
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(120, 270);
-            this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(150, 20);
-            this.txtEstado.TabIndex = 8;
+            txtEstado.Location = new Point(140, 312);
+            txtEstado.Margin = new Padding(4, 3, 4, 3);
+            txtEstado.Name = "txtEstado";
+            txtEstado.Size = new Size(174, 23);
+            txtEstado.TabIndex = 8;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(120, 300);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(150, 20);
-            this.txtSenha.TabIndex = 9;
+            txtSenha.Location = new Point(140, 346);
+            txtSenha.Margin = new Padding(4, 3, 4, 3);
+            txtSenha.Name = "txtSenha";
+            txtSenha.Size = new Size(174, 23);
+            txtSenha.TabIndex = 9;
             // 
             // cmbTipoConta
             // 
-            this.cmbTipoConta.FormattingEnabled = true;
-            this.cmbTipoConta.Items.AddRange(new object[] {
-            "Tipo1",
-            "Tipo2",
-            "Tipo3"});
-            this.cmbTipoConta.Location = new System.Drawing.Point(120, 330);
-            this.cmbTipoConta.Name = "cmbTipoConta";
-            this.cmbTipoConta.Size = new System.Drawing.Size(150, 21);
-            this.cmbTipoConta.TabIndex = 10;
+            cmbTipoConta.FormattingEnabled = true;
+            cmbTipoConta.Items.AddRange(new object[] { "Tipo1", "Tipo2", "Tipo3" });
+            cmbTipoConta.Location = new Point(140, 381);
+            cmbTipoConta.Margin = new Padding(4, 3, 4, 3);
+            cmbTipoConta.Name = "cmbTipoConta";
+            cmbTipoConta.Size = new Size(174, 23);
+            cmbTipoConta.TabIndex = 10;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(120, 360);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(150, 23);
-            this.btnCadastrar.TabIndex = 11;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            btnCadastrar.Location = new Point(140, 415);
+            btnCadastrar.Margin = new Padding(4, 3, 4, 3);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new Size(175, 27);
+            btnCadastrar.TabIndex = 11;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
-            // Labels
+            // lblNome
             // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(15, 33);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(35, 13);
-            this.lblNome.TabIndex = 12;
-            this.lblNome.Text = "Nome:";
-
-            this.lblIdentificador.AutoSize = true;
-            this.lblIdentificador.Location = new System.Drawing.Point(15, 63);
-            this.lblIdentificador.Name = "lblIdentificador";
-            this.lblIdentificador.Size = new System.Drawing.Size(70, 13);
-            this.lblIdentificador.TabIndex = 13;
-            this.lblIdentificador.Text = "CPF/CNPJ:";
-
-            this.lblCep.AutoSize = true;
-            this.lblCep.Location = new System.Drawing.Point(15, 93);
-            this.lblCep.Name = "lblCep";
-            this.lblCep.Size = new System.Drawing.Size(29, 13);
-            this.lblCep.TabIndex = 14;
-            this.lblCep.Text = "CEP:";
-
-            this.lblEndereco.AutoSize = true;
-            this.lblEndereco.Location = new System.Drawing.Point(15, 123);
-            this.lblEndereco.Name = "lblEndereco";
-            this.lblEndereco.Size = new System.Drawing.Size(56, 13);
-            this.lblEndereco.TabIndex = 15;
-            this.lblEndereco.Text = "Endereço:";
-
-            this.lblBairro.AutoSize = true;
-            this.lblBairro.Location = new System.Drawing.Point(15, 153);
-            this.lblBairro.Name = "lblBairro";
-            this.lblBairro.Size = new System.Drawing.Size(37, 13);
-            this.lblBairro.TabIndex = 16;
-            this.lblBairro.Text = "Bairro:";
-
-            this.lblMunicipio.AutoSize = true;
-            this.lblMunicipio.Location = new System.Drawing.Point(15, 183);
-            this.lblMunicipio.Name = "lblMunicipio";
-            this.lblMunicipio.Size = new System.Drawing.Size(55, 13);
-            this.lblMunicipio.TabIndex = 17;
-            this.lblMunicipio.Text = "Município:";
-
-            this.lblSexo.AutoSize = true;
-            this.lblSexo.Location = new System.Drawing.Point(15, 213);
-            this.lblSexo.Name = "lblSexo";
-            this.lblSexo.Size = new System.Drawing.Size(34, 13);
-            this.lblSexo.TabIndex = 18;
-            this.lblSexo.Text = "Sexo:";
-
-            this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Location = new System.Drawing.Point(15, 243);
-            this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(52, 13);
-            this.lblTelefone.TabIndex = 19;
-            this.lblTelefone.Text = "Telefone:";
-
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(15, 273);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(43, 13);
-            this.lblEstado.TabIndex = 20;
-            this.lblEstado.Text = "Estado:";
-
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(15, 303);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(41, 13);
-            this.lblSenha.TabIndex = 21;
-            this.lblSenha.Text = "Senha:";
-
-            this.lblTipoConta.AutoSize = true;
-            this.lblTipoConta.Location = new System.Drawing.Point(15, 333);
-            this.lblTipoConta.Name = "lblTipoConta";
-            this.lblTipoConta.Size = new System.Drawing.Size(80, 13);
-            this.lblTipoConta.TabIndex = 22;
-            this.lblTipoConta.Text = "Tipo de Conta:";
-
+            lblNome.AutoSize = true;
+            lblNome.Location = new Point(18, 38);
+            lblNome.Margin = new Padding(4, 0, 4, 0);
+            lblNome.Name = "lblNome";
+            lblNome.Size = new Size(43, 15);
+            lblNome.TabIndex = 12;
+            lblNome.Text = "Nome:";
+            // 
+            // lblIdentificador
+            // 
+            lblIdentificador.AutoSize = true;
+            lblIdentificador.Location = new Point(18, 73);
+            lblIdentificador.Margin = new Padding(4, 0, 4, 0);
+            lblIdentificador.Name = "lblIdentificador";
+            lblIdentificador.Size = new Size(63, 15);
+            lblIdentificador.TabIndex = 13;
+            lblIdentificador.Text = "CPF/CNPJ:";
+            // 
+            // lblCep
+            // 
+            lblCep.AutoSize = true;
+            lblCep.Location = new Point(18, 107);
+            lblCep.Margin = new Padding(4, 0, 4, 0);
+            lblCep.Name = "lblCep";
+            lblCep.Size = new Size(31, 15);
+            lblCep.TabIndex = 14;
+            lblCep.Text = "CEP:";
+            // 
+            // lblEndereco
+            // 
+            lblEndereco.AutoSize = true;
+            lblEndereco.Location = new Point(18, 142);
+            lblEndereco.Margin = new Padding(4, 0, 4, 0);
+            lblEndereco.Name = "lblEndereco";
+            lblEndereco.Size = new Size(59, 15);
+            lblEndereco.TabIndex = 15;
+            lblEndereco.Text = "Endereço:";
+            // 
+            // lblBairro
+            // 
+            lblBairro.AutoSize = true;
+            lblBairro.Location = new Point(18, 177);
+            lblBairro.Margin = new Padding(4, 0, 4, 0);
+            lblBairro.Name = "lblBairro";
+            lblBairro.Size = new Size(41, 15);
+            lblBairro.TabIndex = 16;
+            lblBairro.Text = "Bairro:";
+            // 
+            // lblMunicipio
+            // 
+            lblMunicipio.AutoSize = true;
+            lblMunicipio.Location = new Point(18, 211);
+            lblMunicipio.Margin = new Padding(4, 0, 4, 0);
+            lblMunicipio.Name = "lblMunicipio";
+            lblMunicipio.Size = new Size(64, 15);
+            lblMunicipio.TabIndex = 17;
+            lblMunicipio.Text = "Município:";
+            // 
+            // lblSexo
+            // 
+            lblSexo.AutoSize = true;
+            lblSexo.Location = new Point(18, 246);
+            lblSexo.Margin = new Padding(4, 0, 4, 0);
+            lblSexo.Name = "lblSexo";
+            lblSexo.Size = new Size(35, 15);
+            lblSexo.TabIndex = 18;
+            lblSexo.Text = "Sexo:";
+            // 
+            // lblTelefone
+            // 
+            lblTelefone.AutoSize = true;
+            lblTelefone.Location = new Point(18, 280);
+            lblTelefone.Margin = new Padding(4, 0, 4, 0);
+            lblTelefone.Name = "lblTelefone";
+            lblTelefone.Size = new Size(54, 15);
+            lblTelefone.TabIndex = 19;
+            lblTelefone.Text = "Telefone:";
+            // 
+            // lblEstado
+            // 
+            lblEstado.AutoSize = true;
+            lblEstado.Location = new Point(18, 315);
+            lblEstado.Margin = new Padding(4, 0, 4, 0);
+            lblEstado.Name = "lblEstado";
+            lblEstado.Size = new Size(45, 15);
+            lblEstado.TabIndex = 20;
+            lblEstado.Text = "Estado:";
+            // 
+            // lblSenha
+            // 
+            lblSenha.AutoSize = true;
+            lblSenha.Location = new Point(18, 350);
+            lblSenha.Margin = new Padding(4, 0, 4, 0);
+            lblSenha.Name = "lblSenha";
+            lblSenha.Size = new Size(42, 15);
+            lblSenha.TabIndex = 21;
+            lblSenha.Text = "Senha:";
+            // 
+            // lblTipoConta
+            // 
+            lblTipoConta.AutoSize = true;
+            lblTipoConta.Location = new Point(18, 384);
+            lblTipoConta.Margin = new Padding(4, 0, 4, 0);
+            lblTipoConta.Name = "lblTipoConta";
+            lblTipoConta.Size = new Size(84, 15);
+            lblTipoConta.TabIndex = 22;
+            lblTipoConta.Text = "Tipo de Conta:";
             // 
             // FormCadastroUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(300, 400);
-            this.Controls.Add(this.txtNome);
-            this.Controls.Add(this.txtIdentificador);
-            this.Controls.Add(this.txtCep);
-            this.Controls.Add(this.txtEndereco);
-            this.Controls.Add(this.txtBairro);
-            this.Controls.Add(this.txtMunicipio);
-            this.Controls.Add(this.txtSexo);
-            this.Controls.Add(this.txtTelefone);
-            this.Controls.Add(this.txtEstado);
-            this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.cmbTipoConta);
-            this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.lblNome);
-            this.Controls.Add(this.lblIdentificador);
-            this.Controls.Add(this.lblCep);
-            this.Controls.Add(this.lblEndereco);
-            this.Controls.Add(this.lblBairro);
-            this.Controls.Add(this.lblMunicipio);
-            this.Controls.Add(this.lblSexo);
-            this.Controls.Add(this.lblTelefone);
-            this.Controls.Add(this.lblEstado);
-            this.Controls.Add(this.lblSenha);
-            this.Controls.Add(this.lblTipoConta);
-            this.Name = "FormCadastroUsuario";
-            this.Text = "Cadastro de Usuário";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(350, 462);
+            Controls.Add(txtNome);
+            Controls.Add(txtIdentificador);
+            Controls.Add(txtCep);
+            Controls.Add(txtEndereco);
+            Controls.Add(txtBairro);
+            Controls.Add(txtMunicipio);
+            Controls.Add(txtSexo);
+            Controls.Add(txtTelefone);
+            Controls.Add(txtEstado);
+            Controls.Add(txtSenha);
+            Controls.Add(cmbTipoConta);
+            Controls.Add(btnCadastrar);
+            Controls.Add(lblNome);
+            Controls.Add(lblIdentificador);
+            Controls.Add(lblCep);
+            Controls.Add(lblEndereco);
+            Controls.Add(lblBairro);
+            Controls.Add(lblMunicipio);
+            Controls.Add(lblSexo);
+            Controls.Add(lblTelefone);
+            Controls.Add(lblEstado);
+            Controls.Add(lblSenha);
+            Controls.Add(lblTipoConta);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "FormCadastroUsuario";
+            Text = "Cadastro de Usuário";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

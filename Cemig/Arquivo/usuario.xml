@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Usuario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nome>Gabriel</Nome>
+  <CpfCnpj>11122233344466</CpfCnpj>
+  <Cep>32280480</Cep>
+  <Endereco>Rua do registro</Endereco>
+  <Bairro>Gloria</Bairro>
+  <Municipio>Contagem</Municipio>
+  <Sexo>Masculino</Sexo>
+  <Telefone>3198773100</Telefone>
+  <Estado>Minas Gerais</Estado>
+  <Senha>1055</Senha>
+  <Contas />
+</Usuario>

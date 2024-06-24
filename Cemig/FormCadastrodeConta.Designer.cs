@@ -34,11 +34,11 @@
             label2 = new Label();
             label3 = new Label();
             Valor = new TextBox();
-            cpfBox = new TextBox();
-            cnpjBox = new TextBox();
-            label4 = new Label();
-            label5 = new Label();
             cadastrar = new Button();
+            pessoaFis = new RadioButton();
+            pessoaJur = new RadioButton();
+            label4 = new Label();
+            txtCpfCnpj = new MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -106,44 +106,6 @@
             Valor.TabIndex = 8;
             Valor.TextChanged += textBox2_TextChanged_1;
             // 
-            // cpfBox
-            // 
-            cpfBox.Location = new Point(278, 74);
-            cpfBox.Name = "cpfBox";
-            cpfBox.PlaceholderText = "Digite seu CPF";
-            cpfBox.Size = new Size(100, 23);
-            cpfBox.TabIndex = 9;
-            // 
-            // cnpjBox
-            // 
-            cnpjBox.Location = new Point(458, 75);
-            cnpjBox.Name = "cnpjBox";
-            cnpjBox.PlaceholderText = "Digite seu CNPJ";
-            cnpjBox.Size = new Size(100, 23);
-            cnpjBox.TabIndex = 10;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Poor Richard", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(235, 75);
-            label4.Name = "label4";
-            label4.Size = new Size(37, 18);
-            label4.TabIndex = 11;
-            label4.Text = "CPF :";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Poor Richard", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(394, 75);
-            label5.Name = "label5";
-            label5.Size = new Size(46, 18);
-            label5.TabIndex = 12;
-            label5.Text = "CNPJ :";
-            // 
             // cadastrar
             // 
             cadastrar.BackColor = SystemColors.Control;
@@ -156,6 +118,51 @@
             cadastrar.UseVisualStyleBackColor = false;
             cadastrar.Click += cadastrar_Click;
             // 
+            // pessoaFis
+            // 
+            pessoaFis.AutoSize = true;
+            pessoaFis.BackColor = Color.Transparent;
+            pessoaFis.Location = new Point(295, 53);
+            pessoaFis.Name = "pessoaFis";
+            pessoaFis.Size = new Size(93, 19);
+            pessoaFis.TabIndex = 14;
+            pessoaFis.TabStop = true;
+            pessoaFis.Text = "Pessoa Fisica";
+            pessoaFis.UseVisualStyleBackColor = false;
+            pessoaFis.CheckedChanged += pessoaFis_CheckedChanged;
+            // 
+            // pessoaJur
+            // 
+            pessoaJur.AutoSize = true;
+            pessoaJur.BackColor = Color.Transparent;
+            pessoaJur.Location = new Point(395, 53);
+            pessoaJur.Name = "pessoaJur";
+            pessoaJur.Size = new Size(104, 19);
+            pessoaJur.TabIndex = 15;
+            pessoaJur.TabStop = true;
+            pessoaJur.Text = "Pessoa Juridica";
+            pessoaJur.UseVisualStyleBackColor = false;
+            pessoaJur.CheckedChanged += pessoaJur_CheckedChanged;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Poor Richard", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(238, 89);
+            label4.Name = "label4";
+            label4.Size = new Size(79, 18);
+            label4.TabIndex = 17;
+            label4.Text = "CPF/CNPJ :";
+            // 
+            // txtCpfCnpj
+            // 
+            txtCpfCnpj.Location = new Point(323, 84);
+            txtCpfCnpj.Name = "txtCpfCnpj";
+            txtCpfCnpj.Size = new Size(155, 23);
+            txtCpfCnpj.TabIndex = 18;
+            txtCpfCnpj.MaskInputRejected += txtCpfCnpj_MaskInputRejected;
+            // 
             // FormCadastrodeConta
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -163,11 +170,11 @@
             BackgroundImage = Properties.Resources.fundo_POO;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
-            Controls.Add(cadastrar);
-            Controls.Add(label5);
+            Controls.Add(txtCpfCnpj);
             Controls.Add(label4);
-            Controls.Add(cnpjBox);
-            Controls.Add(cpfBox);
+            Controls.Add(pessoaJur);
+            Controls.Add(pessoaFis);
+            Controls.Add(cadastrar);
             Controls.Add(Valor);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -190,10 +197,10 @@
         private Label label2;
         private Label label3;
         private TextBox Valor;
-        private TextBox cpfBox;
-        private TextBox cnpjBox;
-        private Label label4;
-        private Label label5;
         private Button cadastrar;
+        private RadioButton pessoaFis;
+        private RadioButton pessoaJur;
+        private Label label4;
+        private MaskedTextBox txtCpfCnpj;
     }
 }

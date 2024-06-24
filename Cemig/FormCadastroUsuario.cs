@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Cemig.Entidades;
+using System;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Cemig
 {
@@ -42,15 +44,25 @@ namespace Cemig
                 Senha = txtSenha.Text
             };
 
-            try
+            string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
+            string nomeArquivo = "usuario.xml";
+            string caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
+
+            // Criar a pasta se ela não existir
+            Directory.CreateDirectory(pastaArquivo);
+
+
+            // Salvar a conta como um arquivo XML
+            XmlSerializer serializer = new XmlSerializer(typeof(Usuario), new XmlRootAttribute("Usuario"));
+            using (StreamWriter streamWriter = new StreamWriter(caminhoCompleto))
             {
-                usuario.SalvarDadosNoArquivoXml();
-                MessageBox.Show("Consumidor cadastrado com sucesso!");
+
+                serializer.Serialize(streamWriter, usuario);
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro ao salvar os dados: {ex.Message}");
-            }
+
+            MessageBox.Show("Usuario salva com sucesso!");
+
+
         }
 
         private bool IsCpfCnpjValid(string cpfCnpj)
@@ -72,6 +84,31 @@ namespace Cemig
         {
             // Adicione a lógica de validação de CNPJ aqui
             return System.Text.RegularExpressions.Regex.IsMatch(cnpj, @"^\d{14}$");
+        }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIdentificador_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEndereco_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMunicipio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBairro_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
