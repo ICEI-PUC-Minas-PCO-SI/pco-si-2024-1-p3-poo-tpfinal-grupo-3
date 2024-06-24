@@ -11,6 +11,27 @@ namespace Cemig.Entidades
     [XmlRoot("Usuario")]
     public class Usuario
     {
+
+        public void SalvarDadosNoArquivoXml()
+        {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Arquivo", "conta.xml");
+
+            XDocument doc;
+            XElement rootElement;
+
+            if (File.Exists(filePath))
+            {
+                doc = XDocument.Load(filePath);
+                rootElement = doc.Element("usuarios");
+            }
+            else
+            {
+                doc = new XDocument(new XElement("usuarios"));
+                rootElement = doc.Root;
+            }
+        }
+
+
         public string Nome { get; set; }
         public string CpfCnpj { get; set; }
         public string Cep { get; set; }
@@ -22,6 +43,7 @@ namespace Cemig.Entidades
         public string Estado { get; set; }
         public string Senha { get; set; }
         public List<Conta> Contas { get; set; }
+        public List<string> Roles { get; set; }
 
         // Construtor padrão
         public Usuario()
@@ -63,8 +85,7 @@ namespace Cemig.Entidades
                     from conta in Contas
                     select new XElement("conta",
                         new XElement("numeroRegistro", conta.NumeroDeRegistro),
-                        new XElement("cpf", conta.Cpf),
-                        new XElement("cnpj", conta.Cnpj),
+                        new XElement("cpf", conta.Indentificacao),
                         new XElement("valor", conta.Valor),
                         new XElement("leituraAtual", conta.LeituraAtual),
                         new XElement("leituraAnterior", conta.LeituraAnterior))));

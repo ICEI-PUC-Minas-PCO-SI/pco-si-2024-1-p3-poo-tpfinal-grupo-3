@@ -63,3 +63,5 @@ C:\Users\Parre\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig\obj\Debug
 C:\Users\Parre\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig\obj\Debug\net8.0-windows\Cemig.FormHome.resources
 C:\Users\Parre\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig\obj\Debug\net8.0-windows\Cemig.FormListaConsumidores.resources
 C:\Users\Parre\Source\Repos\pco-si-2024-1-p3-poo-tpfinal-grupo-3\Cemig\obj\Debug\net8.0-windows\Cemig.Properties.Resources.resources
+G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.FormRegistroConsumo.resources
+G:\Cemig POO\Cemig\obj\Debug\net8.0-windows\Cemig.FormRegistroEstatisticas.resources

@@ -1,15 +1,22 @@
-﻿using System;
+﻿using Cemig.Entidades;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Cemig
 {
     public partial class FormLogin : Form
     {
+        private readonly string caminhoCompleto;
         public FormLogin()
         {
             InitializeComponent();
             CustomizeDesign();
+
+            string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
+            string nomeArquivo = "conta.xml";
+            caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
@@ -28,6 +35,19 @@ namespace Cemig
             SetPlaceholder(txtUsername, EventArgs.Empty);
             SetPlaceholder(txtPassword, EventArgs.Empty);
         }
+        private List<Usuario> LerUsuariosDoArquivo()
+        {
+            List<Usuario> usuarios = new List<Usuario>();
+            if (File.Exists(caminhoCompleto))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Usuario>));
+                using (FileStream fileStream = new FileStream(caminhoCompleto, FileMode.Open))
+                {
+                    usuarios = (List<Usuario>)serializer.Deserialize(fileStream);
+                }
+            }
+            return usuarios;
+        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -35,20 +55,22 @@ namespace Cemig
             string password = txtPassword.Text;
             string userType = cmbUserType.SelectedItem.ToString();
 
-            // Lógica de validação do login
-            if (username == "admin" && password == "admin" && userType == "Admin")
+            List<Usuario> usuarios = LerUsuariosDoArquivo();
+            Usuario usuarioLogado = usuarios.FirstOrDefault(u => u.CpfCnpj == username && u.Senha == password && (u.Roles.Contains(userType)));
+
+            if (usuarioLogado != null)
             {
-                MessageBox.Show("Login como Admin bem-sucedido!");
-            }
-            else if (username == "usuario" && password == "usuario" && userType == "Usuario")
-            {
-                MessageBox.Show("Login como Usuario bem-sucedido!");
+                MessageBox.Show($"Login como {userType} bem-sucedido!");
+                FormEditarUsuario formEditarUsuario = new FormEditarUsuario(username);
+                formEditarUsuario.Show();
+                this.Hide();
             }
             else
             {
                 MessageBox.Show("Credenciais de login inválidas. Tente novamente.");
             }
         }
+
 
         private void RemovePlaceholder(object sender, EventArgs e)
         {
@@ -146,6 +168,11 @@ namespace Cemig
             textBox.Width = 200;
             textBox.Text = placeholder;
             textBox.Tag = placeholder;
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

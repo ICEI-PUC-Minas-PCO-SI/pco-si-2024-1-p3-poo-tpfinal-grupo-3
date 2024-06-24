@@ -1,21 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "xKMxXPRSNHA=",
+  "dgSpecHash": "dOwbl8dEqKY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\Downloads\\POO - Pasta Correta\\Trabalho\\Cemig\\Cemig.csproj",
-=======
-  "dgSpecHash": "N4UrFvkzB90=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Cemig.csproj",
->>>>>>> a270db153a0f9cac7347b10492b01c321e9c2326
+  "projectFilePath": "G:\\Cemig POO\\Cemig\\Cemig.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problema ao ler o arquivo de cache G:\\Cemig POO\\Cemig\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

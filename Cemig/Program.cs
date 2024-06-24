@@ -11,11 +11,9 @@ namespace Cemig
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-<<<<<<< HEAD
-            Application.Run(new FormEditarUsuario());
-=======
+
             Application.Run(new FormLogin());
->>>>>>> 294b448cd600d59e4acada46d5a6a47e0e102f10
+
         }
     }
 }

@@ -28,7 +28,7 @@ namespace Cemig.Entidades
         public Conta() { }
 
         // Construtor com parâmetros
-        public Conta(string cpf, string cnpj, int numeroDeRegistro, decimal valor int leituraAtual, int leituraAnterior)
+        public Conta(int numeroDeRegistro, string valor, int leituraAtual, int leituraAnterior, string identificacao)
         {
             Indentificacao = identificacao;
             NumeroDeRegistro = numeroDeRegistro;

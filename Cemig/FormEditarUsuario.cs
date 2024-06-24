@@ -1,5 +1,8 @@
 ﻿using Cemig.Entidades;
-using System.Data;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 using System.Xml.Serialization;
 
 namespace Cemig
@@ -9,6 +12,7 @@ namespace Cemig
         private Usuario usuarioSelecionado;
         private List<Usuario> usuarios;
         private readonly string caminhoCompleto;
+        private readonly string usuarioLogadoCpfCnpj;
 
         public FormEditarUsuario(string usuarioLogadoCpfCnpj)
         {
@@ -22,8 +26,6 @@ namespace Cemig
             this.usuarioLogadoCpfCnpj = usuarioLogadoCpfCnpj;
             CarregarUsuarioLogado();
         }
-
-        private string usuarioLogadoCpfCnpj;
 
         public List<Usuario> LerUsuariosDoArquivo()
         {
