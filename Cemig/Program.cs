@@ -12,7 +12,7 @@ namespace Cemig
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new FormHome());
+            Application.Run(new FormLogin());
 
         }
     }
