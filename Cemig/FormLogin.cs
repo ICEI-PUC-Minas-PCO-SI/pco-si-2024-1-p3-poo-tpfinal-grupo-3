@@ -174,5 +174,10 @@ namespace Cemig
         {
 
         }
+
+        private void cmbUserType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

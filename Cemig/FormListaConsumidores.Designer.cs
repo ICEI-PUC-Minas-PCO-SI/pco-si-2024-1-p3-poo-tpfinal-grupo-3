@@ -17,38 +17,52 @@
 
         private void InitializeComponent()
         {
-            this.dataGridViewConsumers = new System.Windows.Forms.DataGridView();
-            this.btnDetails = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewConsumers)).BeginInit();
-            this.SuspendLayout();
+            dataGridViewConsumers = new DataGridView();
+            btnDetails = new Button();
+            resEst = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewConsumers).BeginInit();
+            SuspendLayout();
             // 
             // dataGridViewConsumers
             // 
-            this.dataGridViewConsumers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewConsumers.Location = new System.Drawing.Point(12, 12);
-            this.dataGridViewConsumers.Name = "dataGridViewConsumers";
-            this.dataGridViewConsumers.Size = new System.Drawing.Size(760, 400);
-            this.dataGridViewConsumers.TabIndex = 0;
+            dataGridViewConsumers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewConsumers.Location = new Point(12, 12);
+            dataGridViewConsumers.Name = "dataGridViewConsumers";
+            dataGridViewConsumers.Size = new Size(760, 400);
+            dataGridViewConsumers.TabIndex = 0;
             // 
             // btnDetails
             // 
-            this.btnDetails.Location = new System.Drawing.Point(12, 420);
-            this.btnDetails.Name = "btnDetails";
-            this.btnDetails.Size = new System.Drawing.Size(100, 30);
-            this.btnDetails.TabIndex = 1;
-            this.btnDetails.Text = "Ver Detalhes";
-            this.btnDetails.UseVisualStyleBackColor = true;
-            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
+            btnDetails.Location = new Point(12, 420);
+            btnDetails.Name = "btnDetails";
+            btnDetails.Size = new Size(100, 30);
+            btnDetails.TabIndex = 1;
+            btnDetails.Text = "Ver Detalhes";
+            btnDetails.UseVisualStyleBackColor = true;
+            btnDetails.Click += btnDetails_Click;
+            // 
+            // resEst
+            // 
+            resEst.Location = new Point(637, 423);
+            resEst.Name = "resEst";
+            resEst.Size = new Size(135, 27);
+            resEst.TabIndex = 2;
+            resEst.Text = "Registro de Estatisticas";
+            resEst.UseVisualStyleBackColor = true;
+            resEst.Click += resEst_Click;
             // 
             // FormListaConsumidores
             // 
-            this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Controls.Add(this.btnDetails);
-            this.Controls.Add(this.dataGridViewConsumers);
-            this.Name = "FormListaConsumidores";
-            this.Text = "Listagem de Consumidores";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewConsumers)).EndInit();
-            this.ResumeLayout(false);
+            ClientSize = new Size(784, 461);
+            Controls.Add(resEst);
+            Controls.Add(btnDetails);
+            Controls.Add(dataGridViewConsumers);
+            Name = "FormListaConsumidores";
+            Text = "Listagem de Consumidores";
+            ((System.ComponentModel.ISupportInitialize)dataGridViewConsumers).EndInit();
+            ResumeLayout(false);
         }
+
+        private Button resEst;
     }
 }

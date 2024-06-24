@@ -45,6 +45,7 @@
             cmbUserType.Name = "cmbUserType";
             cmbUserType.Size = new Size(200, 23);
             cmbUserType.TabIndex = 2;
+            cmbUserType.SelectedIndexChanged += cmbUserType_SelectedIndexChanged;
             // 
             // btnLogin
             // 

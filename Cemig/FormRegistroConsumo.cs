@@ -15,10 +15,10 @@ namespace Cemig
     {
         private Usuario usuarioAtual;
 
-        public FormRegistroConsumo(Usuario usuario)
+        public FormRegistroConsumo(string usuarioLogadoCpfCnpj)
         {
             InitializeComponent();
-            usuarioAtual = usuario;
+            usuarioAtual = UtilitarioUsuario.CarregarUsuarioLogado(usuarioLogadoCpfCnpj);
         }
 
         private void FormRegistroConsumo_Load(object sender, EventArgs e)

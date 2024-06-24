@@ -24,7 +24,8 @@ namespace Cemig
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            FormsConsultaConta formsConsultaConta = new FormsConsultaConta();
+            formsConsultaConta.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -119,7 +120,7 @@ namespace Cemig
             }
         }
 
-       
+
 
 
         private void pessoaFis_CheckedChanged(object sender, EventArgs e)
@@ -143,6 +144,11 @@ namespace Cemig
         }
 
         private void txtCpfCnpj_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

@@ -39,6 +39,7 @@
             pessoaJur = new RadioButton();
             label4 = new Label();
             txtCpfCnpj = new MaskedTextBox();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -47,7 +48,7 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = Properties.Resources.checklist;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(0, -1);
+            pictureBox1.Location = new Point(24, 28);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(49, 53);
             pictureBox1.TabIndex = 0;
@@ -163,13 +164,26 @@
             txtCpfCnpj.TabIndex = 18;
             txtCpfCnpj.MaskInputRejected += txtCpfCnpj_MaskInputRejected;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Poor Richard", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Black;
+            label5.Location = new Point(3, 9);
+            label5.Name = "label5";
+            label5.Size = new Size(93, 16);
+            label5.TabIndex = 19;
+            label5.Text = "Consultar Contas";
+            label5.Click += label5_Click;
+            // 
             // FormCadastrodeConta
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.fundo_POO;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(label5);
             Controls.Add(txtCpfCnpj);
             Controls.Add(label4);
             Controls.Add(pessoaJur);
@@ -202,5 +216,6 @@
         private RadioButton pessoaJur;
         private Label label4;
         private MaskedTextBox txtCpfCnpj;
+        private Label label5;
     }
 }

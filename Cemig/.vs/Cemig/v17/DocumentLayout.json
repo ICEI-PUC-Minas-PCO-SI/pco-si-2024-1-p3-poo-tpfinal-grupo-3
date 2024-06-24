@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "G:\\Cemig POO\\Cemig\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\arquivo\\usuario.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:arquivo\\usuario.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formregistroconsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formregistroconsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formregistroconsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formregistroconsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formlistaconsumidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlistaconsumidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formregistroestatisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formregistroestatisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formregistroestatisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formregistroestatisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formlistaconsumidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlistaconsumidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,90 +63,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "usuario.xml",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\Arquivo\\usuario.xml",
-              "RelativeDocumentMoniker": "Arquivo\\usuario.xml",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\Arquivo\\usuario.xml",
-              "RelativeToolTip": "Arquivo\\usuario.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-24T18:58:11.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "FormRegistroEstatisticas.cs",
               "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormRegistroEstatisticas.cs",
               "RelativeDocumentMoniker": "FormRegistroEstatisticas.cs",
               "ToolTip": "G:\\Cemig POO\\Cemig\\FormRegistroEstatisticas.cs",
               "RelativeToolTip": "FormRegistroEstatisticas.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAAGIAAAAAAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAGwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:05:16.806Z",
+              "WhenOpened": "2024-06-24T20:58:19.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormRegistroEstatisticas.cs [Projeto]",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormRegistroEstatisticas.cs",
-              "RelativeDocumentMoniker": "FormRegistroEstatisticas.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\FormRegistroEstatisticas.cs [Projeto]",
-              "RelativeToolTip": "FormRegistroEstatisticas.cs [Projeto]",
+              "DocumentIndex": 0,
+              "Title": "FormListaConsumidores.cs",
+              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormListaConsumidores.cs",
+              "RelativeDocumentMoniker": "FormListaConsumidores.cs",
+              "ToolTip": "G:\\Cemig POO\\Cemig\\FormListaConsumidores.cs*",
+              "RelativeToolTip": "FormListaConsumidores.cs*",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAAoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:04:58.712Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormRegistroConsumo.cs",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormRegistroConsumo.cs",
-              "RelativeDocumentMoniker": "FormRegistroConsumo.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\FormRegistroConsumo.cs",
-              "RelativeToolTip": "FormRegistroConsumo.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAADwv1QAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:02:25.355Z",
+              "WhenOpened": "2024-06-24T20:56:15.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormRegistroConsumo.cs [Projeto]",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormRegistroConsumo.cs",
-              "RelativeDocumentMoniker": "FormRegistroConsumo.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\FormRegistroConsumo.cs [Projeto]",
-              "RelativeToolTip": "FormRegistroConsumo.cs [Projeto]",
+              "Title": "FormListaConsumidores.cs [Projeto]",
+              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormListaConsumidores.cs",
+              "RelativeDocumentMoniker": "FormListaConsumidores.cs",
+              "ToolTip": "G:\\Cemig POO\\Cemig\\FormListaConsumidores.cs [Projeto]*",
+              "RelativeToolTip": "FormListaConsumidores.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:02:23.509Z",
+              "WhenOpened": "2024-06-24T20:56:14.379Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormLogin.cs [Projeto]",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormLogin.cs",
-              "RelativeDocumentMoniker": "FormLogin.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\FormLogin.cs [Projeto]",
-              "RelativeToolTip": "FormLogin.cs [Projeto]",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Cemig POO\\Cemig\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:02:08.618Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-06-24T20:55:41.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\Entidades\\Usuarios.cs",
-              "RelativeDocumentMoniker": "Entidades\\Usuarios.cs",
-              "ToolTip": "G:\\Cemig POO\\Cemig\\Entidades\\Usuarios.cs",
-              "RelativeToolTip": "Entidades\\Usuarios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAoAAAA",
+              "Title": "FormHome.cs",
+              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormHome.cs",
+              "RelativeDocumentMoniker": "FormHome.cs",
+              "ToolTip": "G:\\Cemig POO\\Cemig\\FormHome.cs",
+              "RelativeToolTip": "FormHome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T18:51:17.795Z",
+              "WhenOpened": "2024-06-24T20:55:34.388Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormHome.cs [Projeto]",
+              "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormHome.cs",
+              "RelativeDocumentMoniker": "FormHome.cs",
+              "ToolTip": "G:\\Cemig POO\\Cemig\\FormHome.cs [Projeto]",
+              "RelativeToolTip": "FormHome.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:55:31.837Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

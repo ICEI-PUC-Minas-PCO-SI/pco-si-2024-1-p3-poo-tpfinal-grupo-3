@@ -19,62 +19,93 @@
 
         private void InitializeComponent()
         {
-            this.dataGridViewAccounts = new System.Windows.Forms.DataGridView();
-            this.btnAddAccount = new System.Windows.Forms.Button();
-            this.btnRegisterConsumption = new System.Windows.Forms.Button();
-            this.btnConsultAccounts = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccounts)).BeginInit();
-            this.SuspendLayout();
+            dataGridViewAccounts = new DataGridView();
+            btnAddAccount = new Button();
+            btnRegisterConsumption = new Button();
+            btnConsultAccounts = new Button();
+            editUser = new PictureBox();
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAccounts).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)editUser).BeginInit();
+            SuspendLayout();
             // 
             // dataGridViewAccounts
             // 
-            this.dataGridViewAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewAccounts.Location = new System.Drawing.Point(12, 12);
-            this.dataGridViewAccounts.Name = "dataGridViewAccounts";
-            this.dataGridViewAccounts.Size = new System.Drawing.Size(460, 200);
-            this.dataGridViewAccounts.TabIndex = 0;
+            dataGridViewAccounts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewAccounts.Location = new Point(12, 12);
+            dataGridViewAccounts.Name = "dataGridViewAccounts";
+            dataGridViewAccounts.Size = new Size(460, 200);
+            dataGridViewAccounts.TabIndex = 0;
+            dataGridViewAccounts.CellContentClick += dataGridViewAccounts_CellContentClick;
             // 
             // btnAddAccount
             // 
-            this.btnAddAccount.Location = new System.Drawing.Point(12, 230);
-            this.btnAddAccount.Name = "btnAddAccount";
-            this.btnAddAccount.Size = new System.Drawing.Size(140, 30);
-            this.btnAddAccount.TabIndex = 1;
-            this.btnAddAccount.Text = "Adicionar Conta";
-            this.btnAddAccount.UseVisualStyleBackColor = true;
-            this.btnAddAccount.Click += new System.EventHandler(this.BtnAddAccount_Click);
+            btnAddAccount.Location = new Point(12, 230);
+            btnAddAccount.Name = "btnAddAccount";
+            btnAddAccount.Size = new Size(140, 30);
+            btnAddAccount.TabIndex = 1;
+            btnAddAccount.Text = "Adicionar Conta";
+            btnAddAccount.UseVisualStyleBackColor = true;
+            btnAddAccount.Click += BtnAddAccount_Click;
             // 
             // btnRegisterConsumption
             // 
-            this.btnRegisterConsumption.Location = new System.Drawing.Point(166, 230);
-            this.btnRegisterConsumption.Name = "btnRegisterConsumption";
-            this.btnRegisterConsumption.Size = new System.Drawing.Size(140, 30);
-            this.btnRegisterConsumption.TabIndex = 2;
-            this.btnRegisterConsumption.Text = "Registrar Consumo";
-            this.btnRegisterConsumption.UseVisualStyleBackColor = true;
-            this.btnRegisterConsumption.Click += new System.EventHandler(this.BtnRegisterConsumption_Click);
+            btnRegisterConsumption.Location = new Point(166, 230);
+            btnRegisterConsumption.Name = "btnRegisterConsumption";
+            btnRegisterConsumption.Size = new Size(140, 30);
+            btnRegisterConsumption.TabIndex = 2;
+            btnRegisterConsumption.Text = "Registrar Consumo";
+            btnRegisterConsumption.UseVisualStyleBackColor = true;
+            btnRegisterConsumption.Click += BtnRegisterConsumption_Click;
             // 
             // btnConsultAccounts
             // 
-            this.btnConsultAccounts.Location = new System.Drawing.Point(320, 230);
-            this.btnConsultAccounts.Name = "btnConsultAccounts";
-            this.btnConsultAccounts.Size = new System.Drawing.Size(140, 30);
-            this.btnConsultAccounts.TabIndex = 3;
-            this.btnConsultAccounts.Text = "Consultar Contas";
-            this.btnConsultAccounts.UseVisualStyleBackColor = true;
-            this.btnConsultAccounts.Click += new System.EventHandler(this.BtnConsultAccounts_Click);
+            btnConsultAccounts.Location = new Point(320, 230);
+            btnConsultAccounts.Name = "btnConsultAccounts";
+            btnConsultAccounts.Size = new Size(140, 30);
+            btnConsultAccounts.TabIndex = 3;
+            btnConsultAccounts.Text = "Consultar Contas";
+            btnConsultAccounts.UseVisualStyleBackColor = true;
+            btnConsultAccounts.Click += BtnConsultAccounts_Click;
+            // 
+            // editUser
+            // 
+            editUser.BackgroundImage = Properties.Resources.edit;
+            editUser.BackgroundImageLayout = ImageLayout.Stretch;
+            editUser.Location = new Point(506, 12);
+            editUser.Name = "editUser";
+            editUser.Size = new Size(44, 35);
+            editUser.TabIndex = 4;
+            editUser.TabStop = false;
+            editUser.Click += editUser_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(492, 50);
+            label1.Name = "label1";
+            label1.Size = new Size(80, 15);
+            label1.TabIndex = 5;
+            label1.Text = "Editar Usuario";
             // 
             // FormHome
             // 
-            this.ClientSize = new System.Drawing.Size(484, 281);
-            this.Controls.Add(this.btnConsultAccounts);
-            this.Controls.Add(this.btnRegisterConsumption);
-            this.Controls.Add(this.btnAddAccount);
-            this.Controls.Add(this.dataGridViewAccounts);
-            this.Name = "FormHome";
-            this.Text = "Tela Principal do Consumidor";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccounts)).EndInit();
-            this.ResumeLayout(false);
+            ClientSize = new Size(575, 281);
+            Controls.Add(label1);
+            Controls.Add(editUser);
+            Controls.Add(btnConsultAccounts);
+            Controls.Add(btnRegisterConsumption);
+            Controls.Add(btnAddAccount);
+            Controls.Add(dataGridViewAccounts);
+            Name = "FormHome";
+            Text = "Tela Principal do Consumidor";
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAccounts).EndInit();
+            ((System.ComponentModel.ISupportInitialize)editUser).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
+
+        private PictureBox editUser;
+        private Label label1;
     }
 }

@@ -8,17 +8,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Cemig;
 
 namespace Cemig
 {
     public partial class FormRegistroEstatisticas : Form
     {
+
         private Usuario usuarioAtual;
-        public FormRegistroEstatisticas(Usuario usuario)
+
+        public FormRegistroEstatisticas(string usuarioLogadoCpfCnpj)
         {
             InitializeComponent();
-            usuarioAtual = usuario;
+            usuarioAtual = UtilitarioUsuario.CarregarUsuarioLogado(usuarioLogadoCpfCnpj);
+
         }
+
+        
+
+
+
+
 
         private void FormRelatoriosEstatisticas_Load(object sender, EventArgs e)
         {
