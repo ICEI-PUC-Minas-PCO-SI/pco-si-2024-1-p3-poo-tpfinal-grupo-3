@@ -13,13 +13,11 @@ namespace ConsumerApp
         private void BtnAddAccount_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Adicionar Conta clicado!");
-            // Lógica para adicionar conta
         }
 
         private void BtnRegisterConsumption_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Registrar Consumo clicado!");
-            // Lógica para registrar consumo
         }
 
         private void BtnConsultAccounts_Click(object sender, EventArgs e)

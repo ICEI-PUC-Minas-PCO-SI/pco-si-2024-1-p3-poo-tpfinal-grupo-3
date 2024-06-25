@@ -25,50 +25,38 @@
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // lblNome
-            // 
+
             this.lblNome.AutoSize = true;
             this.lblNome.Location = new System.Drawing.Point(13, 13);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(38, 13);
             this.lblNome.TabIndex = 0;
             this.lblNome.Text = "Nome:";
-            // 
-            // txtNome
-            // 
+
             this.txtNome.Location = new System.Drawing.Point(13, 30);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(259, 20);
             this.txtNome.TabIndex = 1;
-            // 
-            // lblIdentificador
-            // 
+
             this.lblIdentificador.AutoSize = true;
             this.lblIdentificador.Location = new System.Drawing.Point(13, 60);
             this.lblIdentificador.Name = "lblIdentificador";
             this.lblIdentificador.Size = new System.Drawing.Size(68, 13);
             this.lblIdentificador.TabIndex = 2;
             this.lblIdentificador.Text = "CPF/CNPJ:";
-            // 
-            // txtIdentificador
-            // 
+  
             this.txtIdentificador.Location = new System.Drawing.Point(13, 77);
             this.txtIdentificador.Name = "txtIdentificador";
             this.txtIdentificador.Size = new System.Drawing.Size(259, 20);
             this.txtIdentificador.TabIndex = 3;
-            // 
-            // lblTipoConta
-            // 
+  
             this.lblTipoConta.AutoSize = true;
             this.lblTipoConta.Location = new System.Drawing.Point(13, 108);
             this.lblTipoConta.Name = "lblTipoConta";
             this.lblTipoConta.Size = new System.Drawing.Size(72, 13);
             this.lblTipoConta.TabIndex = 4;
             this.lblTipoConta.Text = "Tipo de Conta";
-            // 
-            // cmbTipoConta
-            // 
+
             this.cmbTipoConta.FormattingEnabled = true;
             this.cmbTipoConta.Items.AddRange(new object[] {
             "Pessoa Fisica",
@@ -77,26 +65,20 @@
             this.cmbTipoConta.Name = "cmbTipoConta";
             this.cmbTipoConta.Size = new System.Drawing.Size(259, 21);
             this.cmbTipoConta.TabIndex = 5;
-            // 
-            // lblSenha
-            // 
+       
             this.lblSenha.AutoSize = true;
             this.lblSenha.Location = new System.Drawing.Point(13, 156);
             this.lblSenha.Name = "lblSenha";
             this.lblSenha.Size = new System.Drawing.Size(41, 13);
             this.lblSenha.TabIndex = 6;
             this.lblSenha.Text = "Senha:";
-            // 
-            // txtSenha
-            // 
+           
             this.txtSenha.Location = new System.Drawing.Point(13, 173);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(259, 20);
             this.txtSenha.TabIndex = 7;
-            // 
-            // btnCadastrar
-            // 
+            
             this.btnCadastrar.Location = new System.Drawing.Point(13, 210);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(259, 23);
@@ -104,9 +86,7 @@
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
-            // 
-            // FormCadastroUsuario
-            // 
+             
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);

@@ -8,18 +8,16 @@ namespace Cemig
     {
         public FormLogin()
         {
-            InitializeComponent(); // Certifique-se de que este método é chamado
+            InitializeComponent();
             CustomizeDesign();
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-            // Adiciona itens à ComboBox
             cmbUserType.Items.Add("Admin");
             cmbUserType.Items.Add("Usuario");
-            cmbUserType.SelectedIndex = 0; // Seleciona o primeiro item por padrão
+            cmbUserType.SelectedIndex = 0; 
 
-            // Simula placeholder nos TextBoxes
             txtUsername.GotFocus += RemovePlaceholder;
             txtUsername.LostFocus += SetPlaceholder;
             txtPassword.GotFocus += RemovePlaceholder;
@@ -35,7 +33,6 @@ namespace Cemig
             string password = txtPassword.Text;
             string userType = cmbUserType.SelectedItem.ToString();
 
-            // Lógica de validação do login
             if (username == "admin" && password == "admin" && userType == "Admin")
             {
                 MessageBox.Show("Login como Admin bem-sucedido!");
@@ -85,18 +82,15 @@ namespace Cemig
             this.StartPosition = FormStartPosition.CenterScreen;
             this.BackColor = Color.White;
 
-            // Customize TextBox
             CustomizeTextBox(txtUsername, "Usuário");
             CustomizeTextBox(txtPassword, "Senha");
 
-            // Customize ComboBox
             cmbUserType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbUserType.Font = new Font("Arial", 12);
             cmbUserType.ForeColor = Color.Black;
             cmbUserType.Location = new Point(80, 160);
             cmbUserType.Width = 200;
 
-            // Customize Button
             btnLogin.Font = new Font("Arial", 12);
             btnLogin.ForeColor = Color.White;
             btnLogin.BackColor = Color.FromArgb(0, 122, 204);

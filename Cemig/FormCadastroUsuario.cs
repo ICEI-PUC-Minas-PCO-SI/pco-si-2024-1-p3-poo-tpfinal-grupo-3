@@ -13,7 +13,6 @@ namespace Cemig
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            // Validação de CPF/CNPJ
             string identificador = txtIdentificador.Text;
             if (!IsCpfCnpjValid(identificador))
             {
@@ -21,14 +20,12 @@ namespace Cemig
                 return;
             }
 
-            // Validação de tipo de conta
             if (cmbTipoConta.SelectedItem == null)
             {
                 MessageBox.Show("Selecione um tipo de conta.");
                 return;
             }
 
-            // Aqui você pode adicionar a lógica para salvar o consumidor
 
             MessageBox.Show("Consumidor cadastrado com sucesso!");
         }
@@ -44,13 +41,11 @@ namespace Cemig
 
         private bool IsValidCpf(string cpf)
         {
-            // Adicione a lógica de validação de CPF aqui
             return Regex.IsMatch(cpf, @"^\d{11}$");
         }
 
         private bool IsValidCnpj(string cnpj)
         {
-            // Adicione a lógica de validação de CNPJ aqui
             return Regex.IsMatch(cnpj, @"^\d{14}$");
         }
     }
