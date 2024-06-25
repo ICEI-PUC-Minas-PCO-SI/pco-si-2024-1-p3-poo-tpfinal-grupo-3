@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Conta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Indentificacao>166,776,332-11</Indentificacao>
-  <NumeroDeRegistro>3313</NumeroDeRegistro>
-  <Valor>8890,00</Valor>
+  <Indentificacao>155,563,666-75</Indentificacao>
+  <NumeroDeRegistro>1122</NumeroDeRegistro>
+  <Valor>90,00</Valor>
+  <Consumo>50</Consumo>
+  <LeituraAtual>0</LeituraAtual>
+  <LeituraAnterior>0</LeituraAnterior>
+  <DataLeitura>0001-01-01T00:00:00</DataLeitura>
 </Conta>

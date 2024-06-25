@@ -50,6 +50,7 @@
             txtAccountNumber.Name = "txtAccountNumber";
             txtAccountNumber.Size = new Size(200, 23);
             txtAccountNumber.TabIndex = 1;
+            txtAccountNumber.TextChanged += txtAccountNumber_TextChanged;
             // 
             // lblConsumption
             // 
