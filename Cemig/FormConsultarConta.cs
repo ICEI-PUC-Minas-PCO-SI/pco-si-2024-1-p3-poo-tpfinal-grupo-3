@@ -20,12 +20,10 @@ namespace Cemig
                 return;
             }
 
-            // Simulação de dados
-            double consumo = 100; // Exemplo: 100 unidades de consumo
-            double valorTotal = consumo * 0.5; // Supondo que 0.5 seja o preço por unidade de consumo
-            double valorSemImpostos = valorTotal * 0.8; // Supondo que 20% sejam impostos
+            double consumo = 100; 
+            double valorTotal = consumo * 0.5;
+            double valorSemImpostos = valorTotal * 0.8;
 
-            // Preenchendo os campos com os dados da conta
             txtConsumption.Text = consumo.ToString("N2");
             txtTotalValue.Text = valorTotal.ToString("C2");
             txtValueWithoutTaxes.Text = valorSemImpostos.ToString("C2");

@@ -23,17 +23,13 @@
             resEst = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewConsumers).BeginInit();
             SuspendLayout();
-            // 
-            // dataGridViewConsumers
-            // 
+
             dataGridViewConsumers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewConsumers.Location = new Point(12, 12);
             dataGridViewConsumers.Name = "dataGridViewConsumers";
             dataGridViewConsumers.Size = new Size(760, 400);
             dataGridViewConsumers.TabIndex = 0;
-            // 
-            // btnDetails
-            // 
+
             btnDetails.BackColor = Color.FromArgb(0, 122, 204);
             btnDetails.FlatStyle = FlatStyle.Flat;
             btnDetails.Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
@@ -45,9 +41,7 @@
             btnDetails.Text = "Ver Detalhes";
             btnDetails.UseVisualStyleBackColor = false;
             btnDetails.Click += btnDetails_Click;
-            // 
-            // resEst
-            // 
+
             resEst.BackColor = Color.FromArgb(0, 122, 204);
             resEst.FlatStyle = FlatStyle.Flat;
             resEst.Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
@@ -59,9 +53,7 @@
             resEst.Text = "Registro de Estatísticas";
             resEst.UseVisualStyleBackColor = false;
             resEst.Click += resEst_Click;
-            // 
-            // FormListaConsumidores
-            // 
+ 
             ClientSize = new Size(784, 461);
             Controls.Add(resEst);
             Controls.Add(btnDetails);

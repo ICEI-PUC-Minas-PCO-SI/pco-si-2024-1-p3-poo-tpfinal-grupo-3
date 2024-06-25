@@ -24,22 +24,14 @@ namespace Cemig
 
         }
 
-        
-
-
-
-
-
         private void FormRelatoriosEstatisticas_Load(object sender, EventArgs e)
         {
-            // Adicionar opções ao ComboBox
             cbPeriodo.Items.Add("Últimos 3 meses");
             cbPeriodo.Items.Add("Últimos 6 meses");
             cbPeriodo.Items.Add("Último ano");
             cbPeriodo.Items.Add("Personalizado");
-            cbPeriodo.SelectedIndex = 0; // Selecionar a primeira opção por padrão
+            cbPeriodo.SelectedIndex = 0;
 
-            // Configurar DataGridView
             dataGridViewConsumo.ColumnCount = 4;
             dataGridViewConsumo.Columns[0].Name = "Numero Registro";
             dataGridViewConsumo.Columns[1].Name = "Leitura Anterior";
@@ -53,13 +45,10 @@ namespace Cemig
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
-            // Limpar DataGridView
             dataGridViewConsumo.Rows.Clear();
 
-            // Obter o período selecionado
             string periodoSelecionado = cbPeriodo.SelectedItem.ToString();
 
-            // Filtrar contas com base no período
             List<Conta> contasFiltradas = new List<Conta>();
 
             if (periodoSelecionado == "Últimos 3 meses")
@@ -75,7 +64,6 @@ namespace Cemig
                 contasFiltradas = FiltrarContasPorPeriodo(12);
             }
 
-            // Exibir dados no DataGridView
             foreach (var conta in contasFiltradas)
             {
                 int consumo = conta.LeituraAtual - conta.LeituraAnterior;
@@ -86,10 +74,8 @@ namespace Cemig
 
         private List<Conta> FiltrarContasPorPeriodo(int meses)
         {
-            // Obter a data de início do período
             DateTime dataInicio = DateTime.Now.AddMonths(-meses);
 
-            // Filtrar as contas com base na data de leitura
             List<Conta> contasFiltradas = usuarioAtual.Contas
                 .Where(c => c.DataLeitura >= dataInicio)
                 .ToList();
