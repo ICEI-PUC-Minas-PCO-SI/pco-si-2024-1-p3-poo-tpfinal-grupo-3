@@ -18,7 +18,6 @@ namespace Cemig
         {
             InitializeComponent();
 
-            // Define o caminho do arquivo
             string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
             string nomeArquivo = "conta.xml";
             caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
@@ -98,7 +97,6 @@ namespace Cemig
             usuario.Telefone = txtNum.Text;
             usuario.Estado = txtEstado.Text;
 
-            // Verifica se a nova senha foi informada e se coincide com a confirmação da senha
             if (!string.IsNullOrWhiteSpace(txtAltSenha.Text))
             {
                 if (txtAltSenha.Text == txtRepSenha.Text)
@@ -118,7 +116,6 @@ namespace Cemig
             SalvarDadosUsuario();
         }
 
-        // Handlers de eventos vazios podem ser removidos se não estiverem sendo usados
         private void label1_Click(object sender, EventArgs e) { }
         private void textBox1_TextChanged(object sender, EventArgs e) { }
         private void pictureBox1_Click(object sender, EventArgs e) { }

@@ -14,7 +14,7 @@ namespace Cemig
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            // Validação de CPF/CNPJ
+
             string identificador = txtIdentificador.Text;
             if (!IsCpfCnpjValid(identificador))
             {
@@ -22,14 +22,13 @@ namespace Cemig
                 return;
             }
 
-            // Validação de tipo de conta
+
             if (cmbTipoConta.SelectedItem == null)
             {
                 MessageBox.Show("Selecione um tipo de conta.");
                 return;
             }
 
-            // Captura dos dados de entrada e salvamento no arquivo XML
             Usuario usuario = new Usuario
             {
                 Nome = txtNome.Text,
@@ -49,11 +48,10 @@ namespace Cemig
             string nomeArquivo = "usuario.xml";
             string caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
 
-            // Criar a pasta se ela não existir
+
             Directory.CreateDirectory(pastaArquivo);
 
 
-            // Salvar a conta como um arquivo XML
             XmlSerializer serializer = new XmlSerializer(typeof(Usuario), new XmlRootAttribute("Usuario"));
             using (StreamWriter streamWriter = new StreamWriter(caminhoCompleto))
             {
@@ -77,13 +75,11 @@ namespace Cemig
 
         private bool IsValidCpf(string cpf)
         {
-            // Adicione a lógica de validação de CPF aqui
             return System.Text.RegularExpressions.Regex.IsMatch(cpf, @"^\d{11}$");
         }
 
         private bool IsValidCnpj(string cnpj)
         {
-            // Adicione a lógica de validação de CNPJ aqui
             return System.Text.RegularExpressions.Regex.IsMatch(cnpj, @"^\d{14}$");
         }
 

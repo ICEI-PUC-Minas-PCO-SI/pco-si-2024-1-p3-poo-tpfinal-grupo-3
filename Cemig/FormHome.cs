@@ -13,7 +13,6 @@ namespace Cemig
         public FormHome()
         {
             InitializeComponent();
-            // Define o caminho do arquivo
 
         }
 

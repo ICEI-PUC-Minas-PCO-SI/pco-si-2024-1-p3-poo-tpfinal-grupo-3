@@ -23,7 +23,6 @@ namespace Cemig
 
         private void FormRegistroConsumo_Load(object sender, EventArgs e)
         {
-            // Carregar as contas associadas ao usuário atual
             cbConta.Items.Clear();
             foreach (var conta in usuarioAtual.Contas)
             {
@@ -55,7 +54,7 @@ namespace Cemig
             {
                 conta.LeituraAtual = leituraAtual;
                 conta.LeituraAnterior = leituraAnterior;
-                conta.DataLeitura = DateTime.Now; // Adicionar a data de leitura
+                conta.DataLeitura = DateTime.Now;
                 usuarioAtual.SalvarDadosNoArquivoXml();
                 MessageBox.Show("Leituras registradas com sucesso.");
             }

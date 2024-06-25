@@ -24,7 +24,6 @@ namespace Cemig
             string nomeArquivo = "usuario.xml";
             caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
 
-            // Definir o usuário administrador
             adminUsuario = new Usuario
             {
                 Nome = "Admin",
@@ -83,7 +82,7 @@ namespace Cemig
             string userType = cmbUserType.SelectedItem.ToString();
 
             List<Usuario> usuarios = LerUsuariosDoArquivo();
-            usuarios.Add(adminUsuario); // Adicionar o usuário administrador à lista
+            usuarios.Add(adminUsuario); 
 
             Usuario usuarioLogado = usuarios.FirstOrDefault(u => u.CpfCnpj == username && u.Senha == password && u.Roles.Contains(userType));
             

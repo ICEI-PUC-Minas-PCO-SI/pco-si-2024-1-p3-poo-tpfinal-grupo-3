@@ -19,7 +19,6 @@ namespace Cemig
 
         private void LoadConsumerData()
         {
-            // Exemplo de dados. Substitua isso com dados reais de seu banco de dados.
             var consumers = new List<Consumer>
             {
                 new Consumer { Id = 1, Name = "João Silva", Email = "joao@example.com" },
@@ -36,7 +35,6 @@ namespace Cemig
             {
                 int selectedId = (int)dataGridViewConsumers.SelectedRows[0].Cells[0].Value;
                 MessageBox.Show($"Exibindo detalhes do consumidor com ID: {selectedId}");
-                // Implementar a lógica para exibir os detalhes do consumidor.
             }
             else
             {
