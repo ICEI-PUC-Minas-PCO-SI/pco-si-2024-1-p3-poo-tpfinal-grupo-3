@@ -45,7 +45,14 @@
             txtAccountNumber.Name = "txtAccountNumber";
             txtAccountNumber.Size = new Size(200, 23);
             txtAccountNumber.TabIndex = 1;
+<<<<<<< HEAD
+            txtAccountNumber.TextChanged += txtAccountNumber_TextChanged;
+            // 
+            // lblConsumption
+            // 
+=======
            
+>>>>>>> dc2c5ccd4b1aaf4b115fb28ed3082081fc9c1c21
             lblConsumption.AutoSize = true;
             lblConsumption.Location = new Point(80, 60);
             lblConsumption.Name = "lblConsumption";

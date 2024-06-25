@@ -29,6 +29,8 @@
             label4 = new Label();
             txtCpfCnpj = new MaskedTextBox();
             label5 = new Label();
+            label6 = new Label();
+            maskConsumo = new MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -48,10 +50,10 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Arial", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Arial", 20.25F);
             label1.Location = new Point(300, 20);
             label1.Name = "label1";
-            label1.Size = new Size(210, 32);
+            label1.Size = new Size(244, 32);
             label1.TabIndex = 2;
             label1.Text = "Cadastro de Conta";
             label1.Click += label1_Click;
@@ -69,10 +71,10 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Arial", 11.25F);
             label2.Location = new Point(260, 137);
             label2.Name = "label2";
-            label2.Size = new Size(98, 17);
+            label2.Size = new Size(106, 17);
             label2.TabIndex = 6;
             label2.Text = "Nº de Registro:";
             // 
@@ -80,10 +82,10 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Arial", 11.25F);
             label3.Location = new Point(288, 186);
             label3.Name = "label3";
-            label3.Size = new Size(46, 17);
+            label3.Size = new Size(44, 17);
             label3.TabIndex = 7;
             label3.Text = "Valor:";
             // 
@@ -100,7 +102,7 @@
             // 
             cadastrar.BackColor = Color.FromArgb(0, 122, 204);
             cadastrar.FlatStyle = FlatStyle.Flat;
-            cadastrar.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            cadastrar.Font = new Font("Arial", 12F);
             cadastrar.ForeColor = Color.White;
             cadastrar.Location = new Point(364, 299);
             cadastrar.Name = "cadastrar";
@@ -114,10 +116,10 @@
             // 
             pessoaFis.AutoSize = true;
             pessoaFis.BackColor = Color.Transparent;
-            pessoaFis.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            pessoaFis.Font = new Font("Arial", 11.25F);
             pessoaFis.Location = new Point(295, 53);
             pessoaFis.Name = "pessoaFis";
-            pessoaFis.Size = new Size(106, 21);
+            pessoaFis.Size = new Size(119, 21);
             pessoaFis.TabIndex = 14;
             pessoaFis.TabStop = true;
             pessoaFis.Text = "Pessoa Fisica";
@@ -128,10 +130,10 @@
             // 
             pessoaJur.AutoSize = true;
             pessoaJur.BackColor = Color.Transparent;
-            pessoaJur.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            pessoaJur.Font = new Font("Arial", 11.25F);
             pessoaJur.Location = new Point(407, 53);
             pessoaJur.Name = "pessoaJur";
-            pessoaJur.Size = new Size(118, 21);
+            pessoaJur.Size = new Size(130, 21);
             pessoaJur.TabIndex = 15;
             pessoaJur.TabStop = true;
             pessoaJur.Text = "Pessoa Juridica";
@@ -142,10 +144,10 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Arial", 11.25F);
             label4.Location = new Point(238, 89);
             label4.Name = "label4";
-            label4.Size = new Size(79, 17);
+            label4.Size = new Size(84, 17);
             label4.TabIndex = 17;
             label4.Text = "CPF/CNPJ:";
             // 
@@ -161,14 +163,34 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Font = new Font("Arial", 9.75F);
             label5.ForeColor = Color.Black;
             label5.Location = new Point(3, 9);
             label5.Name = "label5";
-            label5.Size = new Size(106, 16);
+            label5.Size = new Size(107, 16);
             label5.TabIndex = 19;
             label5.Text = "Consultar Contas";
             label5.Click += label5_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Arial", 11.25F);
+            label6.Location = new Point(260, 231);
+            label6.Name = "label6";
+            label6.Size = new Size(76, 17);
+            label6.TabIndex = 7;
+            label6.Text = "Consumo:";
+            // 
+            // maskConsumo
+            // 
+            maskConsumo.Location = new Point(364, 231);
+            maskConsumo.Mask = "0000";
+            maskConsumo.Name = "maskConsumo";
+            maskConsumo.Size = new Size(200, 23);
+            maskConsumo.TabIndex = 20;
+            maskConsumo.MaskInputRejected += maskConsumo_MaskInputRejected;
             // 
             // FormCadastrodeConta
             // 
@@ -176,6 +198,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(maskConsumo);
             Controls.Add(label5);
             Controls.Add(txtCpfCnpj);
             Controls.Add(label4);
@@ -183,6 +206,7 @@
             Controls.Add(pessoaFis);
             Controls.Add(cadastrar);
             Controls.Add(Valor);
+            Controls.Add(label6);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(nresgistro);
@@ -210,5 +234,7 @@
         private Label label4;
         private MaskedTextBox txtCpfCnpj;
         private Label label5;
+        private Label label6;
+        private MaskedTextBox maskConsumo;
     }
 }

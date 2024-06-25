@@ -19,6 +19,8 @@ namespace Cemig.Entidades
         public  int NumeroDeRegistro { get; set; }
         public  string Valor { get; set; }
 
+        public string Consumo { get; set; }
+
         public int LeituraAtual { get; set; }
         public int LeituraAnterior { get; set; }
 
@@ -28,13 +30,14 @@ namespace Cemig.Entidades
         public Conta() { }
 
         // Construtor com parâmetros
-        public Conta(int numeroDeRegistro, string valor, int leituraAtual, int leituraAnterior, string identificacao)
+        public Conta(int numeroDeRegistro, string valor, int leituraAtual, int leituraAnterior, string identificacao, string consumo)
         {
             Indentificacao = identificacao;
             NumeroDeRegistro = numeroDeRegistro;
             Valor = valor;
             LeituraAtual = leituraAtual;
             LeituraAnterior = leituraAnterior;
+            Consumo = consumo;
         }
     }
 }

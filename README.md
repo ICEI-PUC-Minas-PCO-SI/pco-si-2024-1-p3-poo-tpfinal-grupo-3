@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * André Eller Pereira Mendonça
 * Arthur Parreiras Lage Martins
 * Gabriel Henrique de Jesus Paiva
+* Matheus Campos do Amaral
 * Matheus Filipe Duarte Rodrigues
 * Michael Pires Passos
 

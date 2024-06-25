@@ -8,7 +8,7 @@ namespace Cemig
         {
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new FormLogin());
+            Application.Run(new FormCadastrodeConta());
 
         }
     }

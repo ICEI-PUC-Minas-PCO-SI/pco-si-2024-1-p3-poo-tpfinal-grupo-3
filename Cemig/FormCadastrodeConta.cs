@@ -75,7 +75,8 @@ namespace Cemig
             {
                 Indentificacao = identificacao,
                 NumeroDeRegistro = Convert.ToInt32(nresgistro.Text),
-                Valor = Convert.ToDecimal(Valor.Text).ToString("F2")
+                Valor = Convert.ToDecimal(Valor.Text).ToString("F2"),
+                Consumo = maskConsumo.Text
             };
 
             string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
@@ -110,7 +111,8 @@ namespace Cemig
                     {
                         Indentificacao = dados[0],
                         NumeroDeRegistro = int.Parse(dados[1]),
-                        Valor = (dados[2])
+                        Valor = (dados[2]),
+                        Consumo = (dados[3])
                     };
 
                 }
@@ -146,6 +148,11 @@ namespace Cemig
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maskConsumo_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }

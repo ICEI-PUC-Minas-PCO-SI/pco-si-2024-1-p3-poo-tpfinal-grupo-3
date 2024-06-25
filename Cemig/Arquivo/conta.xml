@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Conta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<<<<<<< HEAD
   <Indentificacao>123,456,789-99</Indentificacao>
   <NumeroDeRegistro>1</NumeroDeRegistro>
   <Valor>500,00</Valor>
+=======
+  <Indentificacao>155,563,666-75</Indentificacao>
+  <NumeroDeRegistro>1122</NumeroDeRegistro>
+  <Valor>90,00</Valor>
+  <Consumo>50</Consumo>
+>>>>>>> 3ef4679c54d2745d34e7dcb3e8cdc6f6f74b38f6
   <LeituraAtual>0</LeituraAtual>
   <LeituraAnterior>0</LeituraAnterior>
   <DataLeitura>0001-01-01T00:00:00</DataLeitura>
