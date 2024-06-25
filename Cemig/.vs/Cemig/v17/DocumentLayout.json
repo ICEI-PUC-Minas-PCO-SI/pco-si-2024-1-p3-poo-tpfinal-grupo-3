@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Cemig POO\\Cemig\\",
+  "WorkspaceRootPath": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,18 +42,31 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|G:\\Cemig POO\\Cemig\\formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formeditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\arquivo\\usuario.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:arquivo\\usuario.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\formeditarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formeditarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> dc2c5ccd4b1aaf4b115fb28ed3082081fc9c1c21
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\formregistroestatisticas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formregistroestatisticas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|G:\\Cemig POO\\Cemig\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|g:\\cemig poo\\cemig\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|c:\\users\\parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\cemig\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DDAB36-1F01-4B54-87E4-FD9200BFEFA0}|Cemig.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> dc2c5ccd4b1aaf4b115fb28ed3082081fc9c1c21
     }
   ],
   "DocumentGroupContainers": [
@@ -62,6 +76,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 12,
           "Children": [
             {
@@ -89,6 +104,13 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+>>>>>>> dc2c5ccd4b1aaf4b115fb28ed3082081fc9c1c21
             },
             {
               "$type": "Bookmark",
@@ -96,6 +118,7 @@
             },
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
@@ -109,10 +132,22 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T23:56:41.473Z",
               "EditorCaption": " [Projeto]"
+=======
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+>>>>>>> dc2c5ccd4b1aaf4b115fb28ed3082081fc9c1c21
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "FormCadastrodeConta.cs",
               "DocumentMoniker": "G:\\Cemig POO\\Cemig\\FormCadastrodeConta.cs",
               "RelativeDocumentMoniker": "FormCadastrodeConta.cs",
@@ -241,6 +276,55 @@
               "RelativeToolTip": "FormLogin.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T23:15:55.373Z"
+=======
+              "Title": "FormEditarUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormEditarUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "FormEditarUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\Parre\\Source\\Repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormEditarUsuario.Designer.cs",
+              "RelativeToolTip": "FormEditarUsuario.Designer.cs",
+              "ViewState": "AQIAAHMBAAAAAAAAAADwv4YBAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:13:10.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormEditarUsuario.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormEditarUsuario.cs",
+              "RelativeDocumentMoniker": "FormEditarUsuario.cs",
+              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormEditarUsuario.cs [Projeto]",
+              "RelativeToolTip": "FormEditarUsuario.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:08:24.568Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormRegistroEstatisticas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormRegistroEstatisticas.Designer.cs",
+              "RelativeDocumentMoniker": "FormRegistroEstatisticas.Designer.cs",
+              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\FormRegistroEstatisticas.Designer.cs",
+              "RelativeToolTip": "FormRegistroEstatisticas.Designer.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAADwv4YAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:11:48.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Parre\\source\\repos\\pco-si-2024-1-p3-poo-tpfinal-grupo-3\\Cemig\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T20:07:45.361Z",
+              "EditorCaption": ""
+>>>>>>> dc2c5ccd4b1aaf4b115fb28ed3082081fc9c1c21
             }
           ]
         }

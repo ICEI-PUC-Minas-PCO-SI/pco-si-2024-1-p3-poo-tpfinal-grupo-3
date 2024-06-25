@@ -61,12 +61,10 @@ namespace Cemig
 
             if (pessoaFis.Checked)
             {
-                // Salvar dados sem validar CPF
                 SalvarDados("Pessoa Física", identificacao);
             }
             else if (pessoaJur.Checked)
             {
-                // Salvar dados sem validar CNPJ
                 SalvarDados("Pessoa Jurídica", identificacao);
             }
         }
@@ -81,15 +79,14 @@ namespace Cemig
                 Consumo = maskConsumo.Text
             };
 
-            // Criar o caminho completo para o arquivo XML desejado
             string pastaArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Arquivo");
             string nomeArquivo = "conta.xml";
             string caminhoCompleto = Path.Combine(pastaArquivo, nomeArquivo);
 
-            // Criar a pasta se ela não existir
+
             Directory.CreateDirectory(pastaArquivo);
 
-            // Salvar a conta como um arquivo XML
+
             XmlSerializer serializer = new XmlSerializer(typeof(Conta));
             using (StreamWriter streamWriter = new StreamWriter(caminhoCompleto))
             {

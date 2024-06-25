@@ -2,14 +2,9 @@
 {
     partial class FormEditarUsuario
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
@@ -70,10 +65,10 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(117, 206);
+            txtNome.Location = new Point(116, 179);
             txtNome.MaxLength = 50;
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(256, 23);
+            txtNome.Size = new Size(256, 25);
             txtNome.TabIndex = 1;
             txtNome.TextChanged += textBox1_TextChanged;
             // 
@@ -82,7 +77,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(33, 206);
+            label1.Location = new Point(32, 179);
             label1.Name = "label1";
             label1.Size = new Size(60, 21);
             label1.TabIndex = 2;
@@ -94,7 +89,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(25, 239);
+            label2.Location = new Point(24, 212);
             label2.Name = "label2";
             label2.Size = new Size(86, 21);
             label2.TabIndex = 2;
@@ -106,7 +101,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(43, 274);
+            label4.Location = new Point(42, 247);
             label4.Name = "label4";
             label4.Size = new Size(50, 21);
             label4.TabIndex = 2;
@@ -118,7 +113,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(49, 312);
+            label5.Location = new Point(48, 285);
             label5.Name = "label5";
             label5.Size = new Size(44, 21);
             label5.TabIndex = 2;
@@ -130,7 +125,7 @@
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(25, 350);
+            label6.Location = new Point(24, 323);
             label6.Name = "label6";
             label6.Size = new Size(81, 21);
             label6.TabIndex = 2;
@@ -142,7 +137,7 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(34, 383);
+            label7.Location = new Point(33, 356);
             label7.Name = "label7";
             label7.Size = new Size(59, 21);
             label7.TabIndex = 2;
@@ -154,7 +149,7 @@
             label8.AutoSize = true;
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(25, 423);
+            label8.Location = new Point(24, 396);
             label8.Name = "label8";
             label8.Size = new Size(86, 21);
             label8.TabIndex = 2;
@@ -187,7 +182,10 @@
             // 
             // altSenha
             // 
-            altSenha.BackColor = Color.White;
+            altSenha.BackColor = Color.FromArgb(0, 122, 204);
+            altSenha.FlatStyle = FlatStyle.Flat;
+            altSenha.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            altSenha.ForeColor = Color.White;
             altSenha.Location = new Point(602, 312);
             altSenha.Margin = new Padding(0);
             altSenha.Name = "altSenha";
@@ -223,108 +221,123 @@
             // 
             // maskCep
             // 
-            maskCep.Location = new Point(117, 312);
+            maskCep.Location = new Point(116, 285);
             maskCep.Mask = "00000-000";
             maskCep.Name = "maskCep";
-            maskCep.Size = new Size(135, 23);
+            maskCep.Size = new Size(135, 25);
             maskCep.TabIndex = 5;
             maskCep.TextAlign = HorizontalAlignment.Center;
             maskCep.MaskInputRejected += maskCep_MaskInputRejected;
             // 
             // cmbSexo
             // 
+            cmbSexo.BackColor = Color.WhiteSmoke;
             cmbSexo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbSexo.FlatStyle = FlatStyle.Flat;
+            cmbSexo.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbSexo.FormattingEnabled = true;
             cmbSexo.Items.AddRange(new object[] { "Feminino", "Masculino" });
-            cmbSexo.Location = new Point(117, 272);
+            cmbSexo.Location = new Point(116, 245);
             cmbSexo.Name = "cmbSexo";
-            cmbSexo.Size = new Size(135, 23);
+            cmbSexo.Size = new Size(135, 25);
             cmbSexo.TabIndex = 4;
             cmbSexo.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // txtEndereco
             // 
-            txtEndereco.Location = new Point(117, 348);
+            txtEndereco.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtEndereco.Location = new Point(116, 321);
             txtEndereco.Name = "txtEndereco";
-            txtEndereco.Size = new Size(135, 23);
+            txtEndereco.Size = new Size(256, 25);
             txtEndereco.TabIndex = 6;
             txtEndereco.TextChanged += txtEndereco_TextChanged;
             // 
             // txtBairro
             // 
-            txtBairro.Location = new Point(117, 385);
+            txtBairro.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtBairro.Location = new Point(116, 358);
             txtBairro.Name = "txtBairro";
-            txtBairro.Size = new Size(135, 23);
+            txtBairro.Size = new Size(256, 25);
             txtBairro.TabIndex = 8;
             txtBairro.TextChanged += txtBairro_TextChanged;
             // 
             // txtMunicipio
             // 
-            txtMunicipio.Location = new Point(117, 423);
+            txtMunicipio.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtMunicipio.Location = new Point(116, 396);
             txtMunicipio.Name = "txtMunicipio";
-            txtMunicipio.Size = new Size(135, 23);
+            txtMunicipio.Size = new Size(256, 25);
             txtMunicipio.TabIndex = 10;
             txtMunicipio.TextChanged += txtMunicipio_TextChanged;
             // 
             // txtAltSenha
             // 
+            txtAltSenha.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtAltSenha.Location = new Point(578, 217);
             txtAltSenha.Name = "txtAltSenha";
-            txtAltSenha.Size = new Size(132, 23);
+            txtAltSenha.Size = new Size(131, 25);
             txtAltSenha.TabIndex = 12;
+            txtAltSenha.UseSystemPasswordChar = true;
             txtAltSenha.TextChanged += txtAltSenha_TextChanged;
             // 
             // txtRepSenha
             // 
+            txtRepSenha.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtRepSenha.Location = new Point(578, 268);
             txtRepSenha.Name = "txtRepSenha";
-            txtRepSenha.Size = new Size(132, 23);
+            txtRepSenha.Size = new Size(131, 25);
             txtRepSenha.TabIndex = 13;
+            txtRepSenha.UseSystemPasswordChar = true;
             txtRepSenha.TextChanged += txtRepSenha_TextChanged;
             // 
             // txtNum
             // 
+            txtNum.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtNum.Location = new Point(578, 365);
             txtNum.Name = "txtNum";
-            txtNum.Size = new Size(131, 23);
+            txtNum.Size = new Size(131, 25);
             txtNum.TabIndex = 7;
             txtNum.TextChanged += txtNum_TextChanged;
             // 
             // txtEstado
             // 
             txtEstado.CharacterCasing = CharacterCasing.Upper;
+            txtEstado.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtEstado.Location = new Point(578, 413);
             txtEstado.Name = "txtEstado";
-            txtEstado.Size = new Size(131, 23);
+            txtEstado.Size = new Size(131, 25);
             txtEstado.TabIndex = 9;
             txtEstado.TextChanged += txtEstado_TextChanged;
             // 
             // btnSalvar
             // 
-            btnSalvar.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSalvar.BackColor = Color.FromArgb(0, 122, 204);
+            btnSalvar.FlatStyle = FlatStyle.Flat;
+            btnSalvar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSalvar.ForeColor = Color.White;
             btnSalvar.Location = new Point(333, 435);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(110, 44);
             btnSalvar.TabIndex = 15;
             btnSalvar.Text = "SALVAR";
-            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.UseVisualStyleBackColor = false;
             btnSalvar.Click += btnSalvar_Click;
             // 
             // txtCpfCnpj
             // 
-            txtCpfCnpj.Location = new Point(117, 239);
+            txtCpfCnpj.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtCpfCnpj.Location = new Point(116, 212);
             txtCpfCnpj.MaxLength = 50;
             txtCpfCnpj.Name = "txtCpfCnpj";
-            txtCpfCnpj.Size = new Size(135, 23);
+            txtCpfCnpj.Size = new Size(135, 25);
             txtCpfCnpj.TabIndex = 1;
             txtCpfCnpj.TextChanged += textBox1_TextChanged;
             // 
             // FormEditarUsuario
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.fundo_POO;
+            BackColor = SystemColors.HighlightText;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 491);
             Controls.Add(btnSalvar);
@@ -352,8 +365,9 @@
             Controls.Add(txtCpfCnpj);
             Controls.Add(txtNome);
             Controls.Add(pictureBox1);
+            Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "FormEditarUsuario";
-            Text = "FormEditarUsuario";
+            Text = "Editar Usuário";
             TransparencyKey = Color.Lime;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
